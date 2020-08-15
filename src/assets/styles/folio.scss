@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #161616;
+    color: #fff;
+}
+
+a,
+button {
+    :focus {
+        outline: 1px solid #0f62fe;
+    }
+    
+    :active {
+        outline: 1px solid #0f62fe;
+    }
+}
+
+p {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-bottom: 1.5rem;
+    letter-spacing: 0.05rem;
+
+    &:last-child {
+        padding-bottom: 0;
+    }
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+.container {
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 1312px;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+    padding-bottom: 1rem;
+    @media (min-width: 768px){
+        font-size: 2.25rem;
+    }
+}
+
+.stephany__project_name {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.stephany {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+    letter-spacing: 0.05rem;
+    text-align: left;
+}
+
+.stephany__header-footer {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1 {
+            line-height: 1;
+        }
+
+        p {
+            padding-bottom: 0;
+            line-height: 1;
+        }
+
+        div {
+            display: flex;
+            position: relative;
+            right: -0.25rem;
+
+            a {
+                display: block;
+                width: 2rem;
+                padding: 0.25rem;
+                opacity: 1;
+                transition: opacity ease-in-out 300ms;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+
+                img {
+                    filter: invert(100%);
+                }
+            }
+        }
+    } 
+}
+
+.stephany__content {
+    padding-top: 4rem;
+}
+
+.stephany__hero {
+    @media (min-width: 768px){
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: calc(100vh - 64px - 1rem);
+        justify-content: flex-end;
+    }
+    p {
+        max-width: 768px;
+        @media (min-width: 768px){
+            font-size: 1.25rem;
+        }
+
+        em {
+            text-decoration: underline;
+        }
+    }
+}
+
+.stephany__speaking,
+.stephany__awards,
+.stephany__education {
+    p {
+        span {
+            font-size: 80%;
+            font-style: italic;
+            display: block;
+            margin-top: 0.25rem;
+        }
+    }
+}
+
+.stephany__project {
+    border-top: 1px solid #393939;
+}
+
+.stephany__project_name {
+    position: sticky;
+    top: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: transparent;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #161616;
+
+    span {
+        display: block;
+        width: 1.5rem;
+        padding: 0.25rem;
+    }
+
+    img {
+        filter: invert(100%);
+        transition: transform 300ms ease-in-out;
+    }
+}
+
+.stephany__project_desc {
+    display: none;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.stephany__project_active {
+    .stephany__project_desc {
+        display: block;
+    }
+
+    span {
+        img {
+            transform: rotate(-180deg);
+        }
+    }
+}
+
+.stephany__project_stills {
+    figure {
+      margin-bottom: 1.5rem;
+       border: 1px solid #393939;
+
+       header {
+           padding: 0.5rem;
+           display: flex;
+           border-bottom: 1px solid #393939;
+
+           span {
+            display: block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            border: 1px solid #393939;
+            margin-left: 0.25rem;
+           }
+       }
+    }
+
+    // &:last-child {
+    //     figure {
+    //         &:last-child {
+    //             margin-bottom: 0;
+    //         }
+    //     }
+    // }
+}

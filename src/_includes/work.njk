@@ -1,0 +1,75 @@
+<section class="stephany__content stephany__work">
+    <div class="container">
+        <h2>Work.</h2>
+        {% for x in content.work %}
+           <div class="stephany__project">
+                <h3 tabindex="0" data-project-name class="stephany__project_name">{{x.project.name}} <span><img src="assets/images/chevron--down.svg"></span></h3>
+                <article class="stephany__project_desc" data-project-desc>
+                {% for y in x.project.desc %}
+                    <p>{{y | safe}}</p>
+                {% endfor %}
+                <p>{{x.project.role}}.</p>
+
+                {% if (x.project.name | slug) == 'election-2000:-overtime'%}
+                {% endif %}
+                {% if (x.project.name | slug) == 'stage-magazine'%}
+                {% endif %}
+                {% if (x.project.name | slug) == 'women-who-march'%}
+                {% endif %}
+                {% if (x.project.name | slug) == 'picture-this'%}
+                {% endif %}
+                {% if (x.project.name | slug) == 'the-secret-lives-of-superhero-hackers'%}
+                    <div class="stephany__project_stills stephany__project_stills__3">
+                        <figure class="mobile">
+                        <header><span></span><span></span><span></span></header>
+                        <img src="assets/images/superhero-hackers/01.png">
+                        </figure>
+
+                        <figure class="mobile">
+                        <header><span></span><span></span><span></span></header>
+                        <img src="assets/images/superhero-hackers/02.png">
+                        </figure>
+
+                        <figure class="mobile">
+                        <header><span></span><span></span><span></span></header>
+                        <img src="assets/images/superhero-hackers/03.png">
+                        </figure>
+                    </div>
+                    <div class="stephany__project_stills stephany__project_stills__3">
+                        <figure class="mobile">
+                            <header><span></span><span></span><span></span></header>
+                            <img src="assets/images/superhero-hackers/04.png">
+                        </figure>
+
+                        <figure class="mobile">
+                        <header><span></span><span></span><span></span></header>
+                        <img src="assets/images/superhero-hackers/05.png">
+                        </figure>
+
+                        <figure class="mobile">
+                        <header><span></span><span></span><span></span></header>
+                        <img src="assets/images/superhero-hackers/06.png">
+                        </figure>
+                    </div>
+                    <div class="stephany__project_stills stephany__project_stills__3">
+                        <figure class="mobile">
+                        <header><span></span><span></span><span></span></header>
+                        <img src="assets/images/superhero-hackers/09.png">
+                        </figure>
+
+                        <figure class="mobile">
+                        <header><span></span><span></span><span></span></header>
+                        <img src="assets/images/superhero-hackers/07.png">
+                        </figure>
+
+                        <figure class="mobile">
+                        <header><span></span><span></span><span></span></header>
+                        <img src="assets/images/superhero-hackers/08.png">
+                        </figure>
+                    </div>
+                {% endif %}
+                </article>
+           </div>
+        {% endfor %}
+    </div>
+</section>

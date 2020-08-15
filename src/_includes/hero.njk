@@ -1,0 +1,8 @@
+<section class="stephany__content stephany__hero">
+    <div class="container">
+        <h2>{{content.title}}.</h2>
+        {% for copy in content.hero %}
+            <p>{{copy | safe}}</p>
+        {% endfor %}
+    </div>
+</section>

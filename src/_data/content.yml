@@ -1,0 +1,73 @@
+name: Stephany Cardet
+title: Human-first design engineer
+email: hello@stephanycardet.com
+linkedin: https://www.linkedin.com/in/stephany-c-86761526/
+description: HTML, CSS, and Js are my languages. 'Simplicity wins' is my mantra. UX designer engineer at IBM.
+url: https://stephanycardet.com
+keywords: human-first design, ux, ux designer, ux engineer
+hero:
+  - Stephany Cardet is a human-first design engineer. Working at the intersection content, design, and technology, Stephany is passionate about building trust, providing utility, and sharing stories with a focus on inclusivity and accessibility.
+
+  - Stephany currently works at International Business Machines. She holds an MFA in Web Design and New Media from the Academy of Art University.
+
+  - Design, HTML, CSS, and Javascript are her languages. <em>Simplicity wins</em> is her mantra.
+speaking:
+  - Lower Eastside Girls Club <span>2018</span>
+  - StoryCode <span>2017</span>
+awards:
+  - The Webby Awards, Websites, Media Streaming <span>Election 2000</span>
+
+  - The Webby Awards, Best Individual Editorial Experience <span>State Magazine</span>
+
+  - The Webby Awards, News & Politics, Individual Episode <span>Women Who March</span>
+
+  - The Webby Awards, Best Use of Photography <span>Picture This</span>
+education:
+  - MFA Web Design and New Media <span>Academy of Art University</span>
+
+  - Photography <span>Pace University</span>
+
+  - Psychology <span>Pace University</span>
+work:
+  - project:
+      name: "Election 2000: Overtime"
+      url: https://www.cnn.com/interactive/2018/07/politics/election-2000-over-time/
+      desc:
+        - "The Webby Awards 2019 Nominee: Websites, Media Streaming."
+        - Witness the 2000 U.S. presidential election through the eyes of photographers Callie Shell and David Hume Kennerly in this digital photo and audio experience.
+        - Art direction by Damian Prado.
+        - Podcast by Amy Eason.
+      role: UI and UX; HTML, CSS, and Js
+  - project:
+      name: State Magazine
+      url: https://www.cnn.com/interactive/2017/politics/state/
+      desc:
+        - "The Webby Awards 2018 Honoree: Best Individual Editorial Experience."
+        - State Magazine aims to capture this moment in America's political culture, which is exhilarating for those unnerved by what they see as the country's progressive, globalist tilt under Obama and anxiety-provoking for those who unexpectedly find that approach locked out of power in Washington.
+        - Art direction by Damian Prado.
+        - Branding by Jon Reyes.
+      role: UI and UX; PHP, HTML, CSS, and Js
+  - project:
+      name: Women Who March
+      url: https://www.cnn.com/interactive/2017/politics/we-the-women/
+      desc:
+        - "The Webby Awards 2018 Honoree: News & Politics: Individual Episode."
+        - A documentary capturing the historic Women's March on Washington, a demonstration that filled the streets of the nation's capital on January 21, 2017 and brought more than one million people out to protest across the country.
+        - Documentary by Contessa Gayles.
+        - Art direction by Greg Chen.
+      role: Data visualization, UI and UX; HTML, CSS, and Js
+  - project:
+      name: Picture This
+      url: https://money.cnn.com/katrina/index.html
+      desc:
+        - "The Webby Awards 2016 Honoree: Best Use of Photography."
+        - "A photography-led experience featuring the last works of legendary photographer and photojournalist Mary Ellen Mark. CNN Money traveled with a legend to New Orleans to photograph key figures in the untold stories that will forever haunt NOLA: Hurricane Katrina. Our cameras are there as she captures these icons against the backdrop of a city that's still trying to heal, a decade later."
+        - Art direction by Greg Chen.
+      role: UI and UX; HTML, CSS, and Js
+  - project:
+      name: The Secret Lives Of Superhero Hackers
+      url: https://money.cnn.com/technology/superhero-hackers/
+      desc:
+        - A five-part digital series. Behind a computer, hackers become superheroes or villains, with the power to protect or destroy.
+        - Art direction by Greg Chen.
+      role: UI and UX; PHP, HTML, CSS, and Js
