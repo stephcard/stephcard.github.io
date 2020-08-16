@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  min-width: 320px;
+  background: #161616;
+  color: #ffffff;
+}
+
+a {
+  color: #0f62fe;
+  text-decoration: underline;
+}
+
+header {
+  width: 100%;
+  padding: 1rem 0 2rem 0;
+}
+
+footer {
+  width: 100%;
+  padding: 1rem 0 2rem 0;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.25rem;
+  font-style: italic;
+  padding-bottom: 0.5rem;
+  line-height: 1.25;
+}
+@media (min-width: 768px){
+  h1 {
+    max-width: 80%;
+  }
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+@media (min-width: 768px){
+  h2 {
+    max-width: 80%;
+  }
+}
+
+button {
+    box-sizing: border-box;
+    border: 0;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: initial;
+    font-size: var(--cds-body-short-01-font-size,.875rem);
+    font-weight: var(--cds-body-short-01-font-weight,400);
+    line-height: var(--cds-body-short-01-line-height,1.125rem);
+    letter-spacing: var(--cds-body-short-01-letter-spacing,.16px);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: top;
+    flex-shrink: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 3px) 60px calc(.875rem - 3px) 12px;
+    border-radius: 0;
+    text-align: left;
+    text-decoration: none;
+    transition: all 70ms cubic-bezier(0,0,.38,.9);
+    outline: none;
+    position: relative;
+    max-width: 20rem;
+    margin: 0;
+    background-color: transparent;
+    border: 1px solid var(--cds-interactive-03,#0f62fe);
+    color: var(--cds-interactive-03,#0f62fe);
+}
+
+button:hover {
+  color: var(--cds-inverse-01,#fff);
+  background-color: var(--cds-hover-tertiary,#0f62fe);
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+#bingo {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#bingo-card {
+  width: 100%;
+}
+
+#bingo-card .container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  color: #222;
+  justify-content: space-between;
+}
+
+#bingo-card .square {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  position: relative;
+  color: #c6c6c6;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 70ms cubic-bezier(0,0,.38,.9);
+  padding: 0.5rem;
+  border: 1px solid #6f6f6f;
+  line-height: 1.5;
+  letter-spacing: 0.05rem;
+}
+@media (min-width: 375px){
+  #bingo-card .square {
+    width: calc(50% - 0.25rem);
+  }
+}
+@media (min-width: 414px){
+  #bingo-card .square {
+    width: calc(33.3333% - 0.25rem);
+  }
+}
+@media (min-width: 667px){
+  #bingo-card .square {
+    width: calc(25% - 0.5rem);
+    margin-bottom: 0.5rem;
+  }
+}
+@media (min-width: 768px){
+  #bingo-card .square {
+    width: calc(20% - 0.5rem);
+    margin-bottom: 0.5rem;
+  }
+}
+#bingo-card .square.selected {
+  background: #0f62fe;
+  border: 1px solid #0f62fe;
+  color: #fff;
+}
+#bingo-card .square.square-12 {
+  background: #0f62fe;
+  border: 1px solid #0f62fe;
+  color: #fff;
+  pointer-events: none;
+  background: #0f62fe;
+}
+#bingo-card .square:hover {
+  background: #262626;
+}
+#bingo-card .square.selected:hover {
+  background: #0f62fe;
+}
+
+#bingo-callouts {
+  padding: 1rem;
+}
+
+#callouts {
+  max-width: 672px;
+  width: 100%;
+  padding: 0 10px;
+  list-style-position: inside;
+}
+
+#callouts li {
+  padding-bottom: 20px;
+  cursor: pointer;
+  opacity: 1;
+  transition: 300ms opacity ease-in-out
+}
+
+#callouts li.strikethrough {
+  text-decoration: line-through;
+}
