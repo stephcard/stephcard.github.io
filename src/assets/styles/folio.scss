@@ -20,6 +20,11 @@ a {
     &:hover {
         opacity: 0.5;
     }
+
+    &:focus {
+        outline: 1px solid #78a9ff;
+        outline-offset: -1px;
+    }
 }
 
 strong {
@@ -28,6 +33,14 @@ strong {
 
 a,
 .stephany__project_name {
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity ease-in-out 300ms;
+
+    &:hover {
+        opacity: 0.5;
+    }
+
     &:focus {
         outline: 1px solid #78a9ff;
         outline-offset: -1px;
