@@ -35,8 +35,7 @@ work:
       desc:
         - "The Webby Awards 2019 Nominee: Websites, Media Streaming."
         - Witness the 2000 U.S. presidential election through the eyes of photographers Callie Shell and David Hume Kennerly in this digital photo and audio experience.
-        - Art direction by Damian Prado.
-        - Podcast by Amy Eason.
+        - Art direction by Damian Prado; podcast by Amy Eason.
       role: UI and UX; HTML, CSS, and Js
   - project:
       name: State Magazine
@@ -44,8 +43,7 @@ work:
       desc:
         - "The Webby Awards 2018 Honoree: Best Individual Editorial Experience."
         - State Magazine aims to capture this moment in America's political culture, which is exhilarating for those unnerved by what they see as the country's progressive, globalist tilt under Obama and anxiety-provoking for those who unexpectedly find that approach locked out of power in Washington.
-        - Art direction by Damian Prado.
-        - Branding by Jon Reyes.
+        - Art direction by Damian Prado; branding by Jon Reyes.
       role: UI and UX; PHP, HTML, CSS, and Js
   - project:
       name: Women Who March
@@ -53,8 +51,7 @@ work:
       desc:
         - "The Webby Awards 2018 Honoree: News & Politics: Individual Episode."
         - A documentary capturing the historic Women's March on Washington, a demonstration that filled the streets of the nation's capital on January 21, 2017 and brought more than one million people out to protest across the country.
-        - Documentary by Contessa Gayles.
-        - Art direction by Greg Chen.
+        - Documentary by Contessa Gayles; art direction by Greg Chen.
       role: Data visualization, UI and UX; HTML, CSS, and Js
   - project:
       name: Picture This

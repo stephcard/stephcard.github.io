@@ -9,16 +9,28 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
     background-color: #161616;
     color: #fff;
+    min-width: 320px;
+}
+
+a {
+    color: #78a9ff;
+    opacity: 1;
+    transition: opacity ease-in-out 300ms;
+
+    &:hover {
+        opacity: 0.5;
+    }
 }
 
 a,
-button {
-    :focus {
-        outline: 1px solid #0f62fe;
+.stephany__project_name {
+    &:focus {
+        outline: 1px solid #78a9ff;
+        outline-offset: -1px;
     }
-    
-    :active {
-        outline: 1px solid #0f62fe;
+
+    svg {
+        fill:  #78a9ff;
     }
 }
 
@@ -31,6 +43,10 @@ p {
 
     &:last-child {
         padding-bottom: 0;
+    }
+
+    @media (min-width: 768px){
+        font-size: 1.125rem;
     }
 }
 
@@ -54,14 +70,19 @@ h2 {
     letter-spacing: 0.05rem;
     padding-bottom: 1rem;
     @media (min-width: 768px){
-        font-size: 2.25rem;
+        font-size: 2.5rem;
     }
 }
 
 .stephany__project_name {
-    font-weight: 400;
-    font-size: 1rem;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
     line-height: 1.5;
+    letter-spacing: 0.05rem;
+    @media (min-width: 768px){
+        font-size: 1.5rem;
+    }
 }
 
 .stephany {
@@ -96,13 +117,7 @@ h2 {
                 display: block;
                 width: 2rem;
                 padding: 0.25rem;
-                opacity: 1;
-                transition: opacity ease-in-out 300ms;
-
-                &:hover {
-                    opacity: 0.5;
-                }
-
+            
                 img {
                     filter: invert(100%);
                 }
@@ -125,6 +140,7 @@ h2 {
     }
     p {
         max-width: 768px;
+        padding-right: 1rem;
         @media (min-width: 768px){
             font-size: 1.25rem;
         }
@@ -148,14 +164,30 @@ h2 {
     }
 }
 
+.stephany__work {
+    padding-bottom: 4rem;
+    .container {
+        padding: 1rem 0
+    }
+
+    h2 {
+        padding: 0 1rem 1rem 1rem;
+    }
+
+    p {
+        max-width: 768px;
+        padding-right: 1rem;
+    }
+}
+
 .stephany__project {
     border-top: 1px solid #393939;
+    max-width: 1024px;
 }
 
 .stephany__project_name {
     position: sticky;
     top: 0;
-    font-family: 'IBM Plex Sans', sans-serif;
     background: transparent;
     color: #fff;
     border: 0;
@@ -164,13 +196,15 @@ h2 {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0.5rem;
+    padding: 1rem;
     background-color: #161616;
 
     span {
         display: block;
         width: 1.5rem;
         padding: 0.25rem;
+        border: 0;
+        background: transparent;
     }
 
     img {
@@ -182,8 +216,60 @@ h2 {
 .stephany__project_desc {
     display: none;
     padding-top: 1rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.stephany__project_url {
+    font-weight: 600;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    svg {
+        width: 1.5rem;
+        margin-left: 0.5rem;
+        transition: transform 300ms ease-in-out;
+        transform: translate(0,-0);
+    }
+
+    span {
+        &:after {
+            content:'';
+            border-bottom: 1px solid #78a9ff;
+            display: block;
+            width: 0;
+            height: 1px;
+            transition: width 300ms ease-in-out;
+        }
+    }
+
+    &:hover {
+        svg {
+            transform: translate(8px,-8px);
+        }
+
+        span {
+            &:after {
+                width: 100%;
+            }
+        }
+    }
+
+    &:focus {
+        outline: 0;
+
+        svg {
+            transform: translate(8px,-8px);
+        }
+
+        span {
+            &:after {
+                width: 100%;
+            }
+        }
+    }
 }
 
 .stephany__project_active {
@@ -198,10 +284,16 @@ h2 {
     }
 }
 
+.stephany__project_stills__desktop {
+    display: none;
+}
+
 .stephany__project_stills {
     figure {
-      margin-bottom: 1.5rem;
-       border: 1px solid #393939;
+        margin-bottom: 2rem;
+        border: 1px solid #393939;
+        width: 100%;
+        max-width: 375px;
 
        header {
            padding: 0.5rem;
@@ -219,11 +311,24 @@ h2 {
        }
     }
 
-    // &:last-child {
-    //     figure {
-    //         &:last-child {
-    //             margin-bottom: 0;
-    //         }
-    //     }
-    // }
+    @media(min-width: 1024px){
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .stephany__project_stills__mobile {
+            width: calc(33.333% - 0.75rem);
+            max-width: 100%;
+        }
+
+        .stephany__project_stills__desktop  {
+            display: block;
+            width: 100%;
+            max-width: 100%;
+        }
+    }
 }
+
+
+
+
