@@ -126,6 +126,11 @@ h2 {
 }
 
 .stephany__header-footer {
+    &.footer {
+        .container {
+            justify-content: flex-end;
+        }
+    }
     .container {
         display: flex;
         justify-content: space-between;
