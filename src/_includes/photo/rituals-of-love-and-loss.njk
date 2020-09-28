@@ -1,0 +1,11 @@
+<section class="stephany__photo" id="{{photo.work[2].name | lower | slug}}">
+    {% for x in photo.work[2].assets %}
+        <figure>
+        <img alt="{{x.alt}}" srcset="../assets/images/{{photo.work[2].name | lower | slug}}/{{x.file}}-828w.jpg 828w, ../assets/images/{{photo.work[2].name | lower | slug}}/{{x.file}}-1536w.jpg 1536w, ../assets/images/{{photo.work[2].name | lower | slug}}/{{x.file}}-2048w.jpg 2048w">
+            <figcaption>
+                <h3><em>{{x.title}}</em> from <em>{{photo.work[2].name}}</em></h3>
+                <h4>{% if x.size %}{{x.size}}, {% endif %} {{x.medium}}, {{x.date}}</h4>
+            </figcaption>
+        </figure>  
+    {% endfor %}
+</section>

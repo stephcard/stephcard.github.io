@@ -1,0 +1,295 @@
+<!doctype html><html lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Photo | Stephany Cardet</title><meta name="description" content=""><meta property="og:description" content=""><meta name="keywords" content="photography, analog photography, dark room photography, photo art, fine art"><meta name="news_keywords" content="photography, analog photography, dark room photography, photo art, fine art"><meta name="author" content="Stephany Cardet"><link rel="canonical" href="https://stephanycardet.com/photo/"><meta property="og:url" content="https://stephanycardet.com/photo/"><meta itemprop="image" content=""><meta property="og:image" content=""><meta property="og:image:width" content="1200"><meta property="og:image:height" content="675"><link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;600&family=Archivo:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet"><style>* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: #fff;
+      color: #161616;
+      font-family: 'Archivo', sans-serif;
+      font-weight: 400;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      width: 100%;
+    }
+
+    #stephany__photo__header {
+      width: 100%;
+      display: flex;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      background: #fff;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #stephany__photo__menu small {
+      font-family: 'Archivo Narrow', sans-serif;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    h1 {
+       font-size: 1.125rem;
+       line-height: 1;
+       font-weight: 400;
+    }
+
+    #stephany__photo__menu__toggle {
+      position: relative;
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+      border: 0;
+      outline: 0;
+      background: transparent;
+    }
+
+    .hamburger-to-close:before,
+    .hamburger-to-close:after {
+      content: '';
+    }
+
+    .hamburger-to-close .hamburger-middle,
+    .hamburger-to-close:before,
+    .hamburger-to-close:after {
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      left: 0;
+      background-color: #000;
+    }
+
+    .hamburger-to-close .hamburger-middle {
+        top: 50%;
+        transition: -webkit-transform ease 200ms;
+    }
+
+    .hamburger-to-close:before {
+      top: 8px;
+      transition: top 200ms ease 200ms, transform ease 200ms;
+    }
+
+    .hamburger-to-close:after {
+      bottom: 8px;
+      transition: bottom 200ms ease 200ms, -webkit-transform ease 200ms;
+    }
+
+    .hamburger-to-close.active .hamburger-middle {
+      opacity: 0;
+    }
+
+    .hamburger-to-close.active:before {
+      top: 14px;
+      transform: rotate(-45deg);
+      transition: top ease 200ms, -webkit-transform 200ms ease 200ms;
+    }
+
+    .hamburger-to-close.active:after {
+      bottom: 16px;
+      transform: rotate(45deg);
+      transition: bottom ease 200ms, -webkit-transform 200ms ease 200ms;
+    }
+
+    #stephany__photo__menu__toggle:focus {
+      outline: 1px solid #1845C6;
+      outline-offset: 3px;
+    }
+
+    #stephany__photo__menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      padding: 1rem;
+      background: #161616;
+      color: #fff;
+      transition: transform 300ms ease-in-out;
+      transform: translateX(-100%)
+    }
+
+    #stephany__photo__menu h1 {
+      padding-top: 0.5rem;
+    }
+
+    #stephany__photo__menu.active {
+      transform: translateX(0)
+    }
+
+    #stephany__photo__menu div {
+      margin-bottom: 1rem;
+    }
+
+    #stephany__photo__menu a {
+      font-size: 1rem;
+      text-decoration: none;
+      position: relative;
+      color: #fff;
+    }
+
+    #stephany__photo__menu a:after {
+      content: '';
+      display: block;
+      height: 1px;
+      width: 0;
+      background: #fff;
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      transition: width 300ms ease-in-out;
+    }
+
+    #stephany__photo__menu a:hover:after {
+      width: 100%;
+    }
+
+    #stephany__photo__menu a.active:after {
+      width: 100%;
+    }
+
+    #stephany__photo__menu small {
+      white-space: nowrap;
+      display: block;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      margin-top: 3rem;
+    }
+
+    .stephany__photo__menu__bloom {
+      display: none;
+    }
+
+    .stephany__photo figure {
+      padding: 1rem 1rem 3rem 1rem;
+    }
+
+    .stephany__photo__statement {
+      padding: 40rem 1rem 2rem 1rem;
+    }
+
+    .stephany__photo__statement p {
+      line-height: 1.5;
+      padding-bottom: 1rem;
+    }
+
+    .stephany__photo figcaption {
+      padding-top: 0.5rem;
+    }
+
+    .stephany__photo figcaption h3 {;
+      font-size: 1rem;
+      line-height: 1.5;
+      padding-bottom: 0.25rem;
+      font-weight: 400;
+    }
+
+    .stephany__photo figcaption h4 {
+      font-size: 1rem;
+      line-height: 1.5;
+      font-weight: 400;
+    }
+
+    .stephany__photo figcaption h3 em {
+      font-weight: 600;
+    }
+
+    @media (min-width: 768px){
+      body {
+        display: flex;
+      }
+
+      .stephany__photo {
+        max-width: 768px;
+      }
+
+      #stephany__photo__header {
+        display: none;
+      }
+
+      #stephany__photo__menu {
+        top: 0;
+        position: sticky;
+        transform: translateX(0);
+        background: #fff;
+        color: #161616;
+        width: 33.333%;
+      }
+
+      #stephany__photo__menu a {
+        color: #161616;
+      }
+
+      #stephany__photo__main {
+        width: 66.6666%;
+      }
+
+      #stephany__photo__menu a:after {
+        background: #161616;
+      }
+
+      #stephany__photo__menu h1 {
+        color: #161616;
+      }
+    }</style></head><body><header id="stephany__photo__header"><h1>Stephany Cardet</h1><button id="stephany__photo__menu__toggle" class="hamburger-to-close"><div class="hamburger-middle"></div></button></header><menu id="stephany__photo__menu"><h1>Stephany Cardet</h1><small>Work</small><div><a href="#lines" class="stephany__photo__menu__link stephany__photo__menu__lines" data-section="stephany__photo__lines">Lines</a></div><div><a href="#common-apparitions" class="stephany__photo__menu__link stephany__photo__menu__common-apparitions" data-section="stephany__photo__common-apparitions">Common Apparitions</a></div><div><a href="#rituals-of-love-and-loss" class="stephany__photo__menu__link stephany__photo__menu__rituals-of-love-and-loss" data-section="stephany__photo__rituals-of-love-and-loss">Rituals of Love and Loss</a></div><div><a href="#aerial-landscapes" class="stephany__photo__menu__link stephany__photo__menu__aerial-landscapes" data-section="stephany__photo__aerial-landscapes">Aerial Landscapes</a></div><div><a href="#photoblots" class="stephany__photo__menu__link stephany__photo__menu__photoblots" data-section="stephany__photo__photoblots">Photoblots</a></div><small>Info</small> <a href="#statement" class="stephany__photo__menu__link stephany__photo__menu__statement">Statement</a></menu><main id="stephany__photo__main"><section class="stephany__photo" id="lines"><figure><img alt="alt" srcset="../assets/images/lines/untitled-i-828w.jpg 828w, ../assets/images/lines/untitled-i-1536w.jpg 1536w, ../assets/images/lines/untitled-i-2048w.jpg 2048w"><figcaption><h3><em>Untitled I</em> from <em>Lines</em></h3><h4>11x14, Photogram, 2011</h4></figcaption></figure><figure><img alt="alt" srcset="../assets/images/lines/untitled-iii-828w.jpg 828w, ../assets/images/lines/untitled-iii-1536w.jpg 1536w, ../assets/images/lines/untitled-iii-2048w.jpg 2048w"><figcaption><h3><em>Untitled III</em> from <em>Lines</em></h3><h4>11x14, Photogram, 2011</h4></figcaption></figure><figure><img alt="alt" srcset="../assets/images/lines/untitled-iv-828w.jpg 828w, ../assets/images/lines/untitled-iv-1536w.jpg 1536w, ../assets/images/lines/untitled-iv-2048w.jpg 2048w"><figcaption><h3><em>Untitled IV</em> from <em>Lines</em></h3><h4>11x14, Photogram, 2011</h4></figcaption></figure><figure><img alt="alt" srcset="../assets/images/lines/untitled-v-828w.jpg 828w, ../assets/images/lines/untitled-v-1536w.jpg 1536w, ../assets/images/lines/untitled-v-2048w.jpg 2048w"><figcaption><h3><em>Untitled V</em> from <em>Lines</em></h3><h4>11x14, Photogram, 2011</h4></figcaption></figure><figure><img alt="alt" srcset="../assets/images/lines/untitled-xiii-828w.jpg 828w, ../assets/images/lines/untitled-xiii-1536w.jpg 1536w, ../assets/images/lines/untitled-xiii-2048w.jpg 2048w"><figcaption><h3><em>Untitled XIII</em> from <em>Lines</em></h3><h4>11x14, Photogram, 2011</h4></figcaption></figure></section><section class="stephany__photo" id="common-apparitions"><figure><img alt="alt" srcset="../assets/images/common-apparitions/one-828w.jpg 828w, ../assets/images/common-apparitions/one-1536w.jpg 1536w, ../assets/images/common-apparitions/one-2048w.jpg 2048w"><figcaption><h3><em>#1</em> from <em>Common Apparitions</em></h3><h4>16x20, Chemistry &amp; Photogram, 2011</h4></figcaption></figure><figure><img alt="alt" srcset="../assets/images/common-apparitions/five-828w.jpg 828w, ../assets/images/common-apparitions/five-1536w.jpg 1536w, ../assets/images/common-apparitions/five-2048w.jpg 2048w"><figcaption><h3><em>#5</em> from <em>Common Apparitions</em></h3><h4>16x20, Chemistry &amp; Photogram, 2011</h4></figcaption></figure><figure><img alt="alt" srcset="../assets/images/common-apparitions/seven-828w.jpg 828w, ../assets/images/common-apparitions/seven-1536w.jpg 1536w, ../assets/images/common-apparitions/seven-2048w.jpg 2048w"><figcaption><h3><em>#7</em> from <em>Common Apparitions</em></h3><h4>14x11, Chemistry &amp; Photogram, 2011</h4></figcaption></figure><figure><img alt="alt" srcset="../assets/images/common-apparitions/nine-828w.jpg 828w, ../assets/images/common-apparitions/nine-1536w.jpg 1536w, ../assets/images/common-apparitions/nine-2048w.jpg 2048w"><figcaption><h3><em>#9</em> from <em>Common Apparitions</em></h3><h4>11x14, Chemistry &amp; Photogram, 2011</h4></figcaption></figure><figure><img alt="alt" srcset="../assets/images/common-apparitions/twelve-828w.jpg 828w, ../assets/images/common-apparitions/twelve-1536w.jpg 1536w, ../assets/images/common-apparitions/twelve-2048w.jpg 2048w"><figcaption><h3><em>#12</em> from <em>Common Apparitions</em></h3><h4>11x14, Chemistry &amp; Photogram, 2011</h4></figcaption></figure><figure><img alt="alt" srcset="../assets/images/common-apparitions/thirty-828w.jpg 828w, ../assets/images/common-apparitions/thirty-1536w.jpg 1536w, ../assets/images/common-apparitions/thirty-2048w.jpg 2048w"><figcaption><h3><em>#30</em> from <em>Common Apparitions</em></h3><h4>11x14, Chemistry &amp; Photogram, 2011</h4></figcaption></figure></section><section class="stephany__photo" id="rituals-of-love-and-loss"><figure><img alt="alt" srcset="../assets/images/rituals-of-love-and-loss/loss2_2-828w.jpg 828w, ../assets/images/rituals-of-love-and-loss/loss2_2-1536w.jpg 1536w, ../assets/images/rituals-of-love-and-loss/loss2_2-2048w.jpg 2048w"><figcaption><h3><em>Untitled II</em> from <em>Rituals of Love and Loss</em></h3><h4>35mm film scanned, 2011</h4></figcaption></figure><figure><img alt="alt" srcset="../assets/images/rituals-of-love-and-loss/loss8-828w.jpg 828w, ../assets/images/rituals-of-love-and-loss/loss8-1536w.jpg 1536w, ../assets/images/rituals-of-love-and-loss/loss8-2048w.jpg 2048w"><figcaption><h3><em>Untitled VII</em> from <em>Rituals of Love and Loss</em></h3><h4>35mm film scanned, 2011</h4></figcaption></figure><figure><img alt="alt" srcset="../assets/images/rituals-of-love-and-loss/loss20-828w.jpg 828w, ../assets/images/rituals-of-love-and-loss/loss20-1536w.jpg 1536w, ../assets/images/rituals-of-love-and-loss/loss20-2048w.jpg 2048w"><figcaption><h3><em>Untitled XX</em> from <em>Rituals of Love and Loss</em></h3><h4>35mm film scanned, 2011</h4></figcaption></figure><figure><img alt="alt" srcset="../assets/images/rituals-of-love-and-loss/loss403-828w.jpg 828w, ../assets/images/rituals-of-love-and-loss/loss403-1536w.jpg 1536w, ../assets/images/rituals-of-love-and-loss/loss403-2048w.jpg 2048w"><figcaption><h3><em>Untitled CDIII</em> from <em>Rituals of Love and Loss</em></h3><h4>35mm film scanned, 2011</h4></figcaption></figure></section><section class="stephany__photo" id="aerial-landscapes"><figure><img alt="alt" srcset="../assets/images/aerial-landscapes/underside-828w.jpg 828w, ../assets/images/aerial-landscapes/underside-1536w.jpg 1536w, ../assets/images/aerial-landscapes/underside-2048w.jpg 2048w"><figcaption><h3><em>Untitled I (Underside)</em> from <em>Aerial Landscapes</em></h3><h4>16x20, Chemigram, 2009</h4></figcaption></figure><figure><img alt="alt" srcset="../assets/images/aerial-landscapes/untrue-828w.jpg 828w, ../assets/images/aerial-landscapes/untrue-1536w.jpg 1536w, ../assets/images/aerial-landscapes/untrue-2048w.jpg 2048w"><figcaption><h3><em>Untitled II (Untrue)</em> from <em>Aerial Landscapes</em></h3><h4>16x9, Chemigram, 2009</h4></figcaption></figure></section><section class="stephany__photo" id="photoblots"><figure><img alt="alt" srcset="../assets/images/photoblots/inkblot-828w.jpg 828w, ../assets/images/photoblots/inkblot-1536w.jpg 1536w, ../assets/images/photoblots/inkblot-2048w.jpg 2048w"><figcaption><h3><em>Untitled X (Inkblot)</em> from <em>Photoblots</em></h3><h4>20x16, Photogram, 2009</h4></figcaption></figure><figure><img alt="alt" srcset="../assets/images/photoblots/threshold-828w.jpg 828w, ../assets/images/photoblots/threshold-1536w.jpg 1536w, ../assets/images/photoblots/threshold-2048w.jpg 2048w"><figcaption><h3><em>Untitled II (Threshold)</em> from <em>Photoblots</em></h3><h4>20x16, Photogram, 2009</h4></figcaption></figure></section><section class="stephany__photo stephany__photo__statement" id="statement"><p>Stephany Cardet is a New York-based artist using alternative processing and photo techniques to create abstract portraits of perception. Often abandoning her camera, Stephany uses her body, chemistry, and light to create images of depth, abstracting human forms that subtly appear underneath layers of textural surface.</p><p>Although a photographer by trade, Stephany’s work is part photography, part performance, part painting, and part object.</p></section></main><script>const openMenu = document.getElementById('stephany__photo__menu__toggle');
+      const menu = document.getElementById('stephany__photo__menu');
+      let menuLinks =  document.querySelectorAll('.stephany__photo__menu__link');
+
+      openMenu.addEventListener('click', function(){
+        menu.classList.toggle('active');
+        openMenu.classList.toggle('active');
+      });
+
+      menuLinks.forEach(item => {
+        item.addEventListener('click', event => {
+          menu.classList.remove('active');
+          openMenu.classList.remove('active');
+
+          menuLinks.forEach(x => {
+              x.classList.remove('active');
+          });
+          
+
+          item.classList.add('active');
+        })
+      });
+
+      let mainNavLinks = document.querySelectorAll('.stephany__photo__menu__link');
+      let mainSections = document.querySelectorAll('.stephany__photo');
+
+      let lastId;
+      let cur = [];
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach(link => {
+          let section = document.querySelector(link.hash);
+
+          if (
+            section.offsetTop <= fromTop &&
+            section.offsetTop + section.offsetHeight > fromTop
+          ) {
+            link.classList.add('active');
+          } else {
+            link.classList.remove('active');
+          }
+        });
+      });</script></body></html>

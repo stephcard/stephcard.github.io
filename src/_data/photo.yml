@@ -1,0 +1,170 @@
+name: Stephany Cardet
+title: Photo
+email: stephany.cardet@gmail.com
+linkedin: 
+description:
+url: https://stephanycardet.com/photo/
+keywords: photography, analog photography, dark room photography, photo art, fine art
+exhbitions:
+  - Lower Eastside Girls Club <span>2018</span>
+  - StoryCode <span>2017</span>
+  - <em>Like, Share, Elect</em>, Newseum <span>2016</span>
+education:
+  - MFA Web Design and New Media <span>Academy of Art University</span>
+  - Photography <span>Pace University</span>
+  - Psychology <span>Pace University</span>
+work:
+  -
+    name: Lines
+    desc:
+    assets:
+      -
+        file: untitled-i
+        title: Untitled I
+        alt: alt
+        date: 2011
+        size: 11x14
+        medium: Photogram
+      -
+        file: untitled-iii
+        title: Untitled III
+        alt: alt
+        date: 2011
+        size: 11x14
+        medium: Photogram
+      -
+        file: untitled-iv
+        title: Untitled IV
+        alt: alt
+        date: 2011
+        size: 11x14
+        medium: Photogram
+      -
+        file: untitled-v
+        title: Untitled V
+        alt: alt
+        date: 2011
+        size: 11x14
+        medium: Photogram
+      -
+        file: untitled-xiii
+        title: Untitled XIII
+        alt: alt
+        date: 2011
+        size: 11x14
+        medium: Photogram
+  -
+    name: Common Apparitions
+    desc:
+    assets:
+      -
+        file: one
+        title: "#1"
+        alt: alt
+        date: 2011
+        size: 16x20
+        medium: Chemistry & Photogram
+      -
+        file: five
+        title: "#5"
+        alt: alt
+        date: 2011
+        size: 16x20
+        medium: Chemistry & Photogram
+      -
+        file: seven
+        title: "#7"
+        alt: alt
+        date: 2011
+        size: 14x11
+        medium: Chemistry & Photogram
+      -
+        file: nine
+        title: "#9"
+        alt: alt
+        date: 2011
+        size: 11x14
+        medium: Chemistry & Photogram
+      -
+        file: twelve
+        title: "#12"
+        alt: alt
+        date: 2011
+        size: 11x14
+        medium: Chemistry & Photogram
+      -
+        file: thirty
+        title: "#30"
+        alt: alt
+        date: 2011
+        size: 11x14
+        medium: Chemistry & Photogram
+  -
+    name: Rituals of Love and Loss
+    desc:
+    assets:
+      -
+        file: loss2_2
+        title: Untitled II
+        alt: alt
+        date: 2011
+        size:
+        medium: 35mm film scanned
+      -
+        file: loss8
+        title: Untitled VII
+        alt: alt
+        date: 2011
+        size:
+        medium: 35mm film scanned
+      -
+        file: loss20
+        title: Untitled XX
+        alt: alt
+        date: 2011
+        size:
+        medium: 35mm film scanned
+      -
+        file: loss403
+        title: Untitled CDIII
+        alt: alt
+        date: 2011
+        size:
+        medium: 35mm film scanned
+  -
+    name: Aerial Landscapes
+    desc:
+    assets:
+      -
+        file: underside
+        title: Untitled I (Underside)
+        alt: alt
+        date: 2009
+        size: 16x20
+        medium: Chemigram
+      -
+        file: untrue
+        title: Untitled II (Untrue)
+        alt: alt
+        date: 2009
+        size: 16x9
+        medium: Chemigram
+  -
+    name: Photoblots
+    desc:
+    assets:
+      -
+        file: inkblot
+        title: Untitled X (Inkblot)
+        alt: alt
+        date: 2009
+        size: 20x16
+        medium: Photogram
+      -
+        file: threshold
+        title: Untitled II (Threshold)
+        alt: alt
+        date: 2009
+        size: 20x16
+        medium: Photogram
+  

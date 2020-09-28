@@ -1,0 +1,13 @@
+<menu id="stephany__photo__menu">
+    <h1>Stephany Cardet</h1>
+    
+    <small>Work</small>
+    {% for x in photo.work %}
+        <div>
+            <a href="#{{x.name | lower | slug}}" class="stephany__photo__menu__link stephany__photo__menu__{{x.name | lower | slug}}" data-section="stephany__photo__{{x.name | lower | slug}}">{{x.name}}</a>
+        </div>
+    {% endfor %}
+
+    <small>Info</small>
+    <a href="#statement" class="stephany__photo__menu__link stephany__photo__menu__statement">Statement</a>
+</menu>

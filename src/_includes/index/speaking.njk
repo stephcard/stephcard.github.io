@@ -1,0 +1,8 @@
+<section class="stephany__content stephany__speaking">
+    <div class="container">
+        <h2>Speaking & Exhibitions.</h2>
+        {% for copy in index.speaking %}
+            <p>{{copy | safe}}</p>
+        {% endfor %}
+    </div>
+</section>
