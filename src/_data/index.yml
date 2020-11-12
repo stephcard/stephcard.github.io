@@ -1,13 +1,15 @@
 name: Stephany Cardet
-title: Human-first product & UX design
+title: Human-first UX
 email: stephany.cardet@gmail.com
 linkedin: https://www.linkedin.com/in/stephany-c-86761526/
 description: Designing the 'how' to the 'why' for strategic user-centered products and experiences. 
 url: https://stephanycardet.com
 keywords: product design, human-first design, ux, ux designer, ux engineer, product designer
 hero:
-  - Working at the intersection content, design, and technology, Stephany is passionate about building trust, providing utility, and delivering high engagement products and experiences centered around users and key performance indicators (KPIs).
+  - Working at the intersection of content, design, and technology, Stephany is a seasoned UX designer and developer.
+  - Stephany is passionate about building trust, providing utility, and delivering high engagement experiences centered around users and key performance indicators (KPIs).
   - Stephany is a UX Director at IBM. She holds a master's degree in Web Design and New Media from the Academy of Art University.
+  - She also is a distinguished faculty member at General Assembly.
 
 speaking:
   - Lower Eastside Girls Club <span>2018</span>
@@ -32,45 +34,45 @@ work:
       name: "Election 2000: Overtime"
       url: https://www.cnn.com/interactive/2018/07/politics/election-2000-over-time/
       desc:
-        - "The Webby Awards 2019 Nominee: Websites, Media Streaming."
+        - <strong>The Webby Awards 2019 Nominee- Websites, Media Streaming.</strong>
         - Witness the 2000 U.S. presidential election through the eyes of photographers Callie Shell and David Hume Kennerly in this digital photo and audio experience.
-        - Art direction by Damian Prado; podcast by Amy Eason.
-      role: UI and UX; HTML, CSS, and Js
+        - Art direction and visual design by Damian Prado; podcast by Amy Eason.
+      role: UX and UI design; HTML, CSS, and Js
   - project:
       name: State Magazine
       url: https://www.cnn.com/interactive/2017/politics/state/
       desc:
-        - "The Webby Awards 2018 Honoree: Best Individual Editorial Experience."
+        - <strong>The Webby Awards 2018 Honoree- Best Individual Editorial Experience.</strong>
         - State Magazine aims to capture this moment in America's political culture, which is exhilarating for those unnerved by what they see as the country's progressive, globalist tilt under Obama and anxiety-provoking for those who unexpectedly find that approach locked out of power in Washington.
-        - Art direction by Damian Prado; branding by Jon Reyes.
-      role: UI and UX; HTML, CSS, and Js
+        - Art direction and visual design by Damian Prado; branding by Jon Reyes.
+      role: UX and UI design; HTML, CSS, and Js
   - project:
       name: Women Who March
       url: https://www.cnn.com/interactive/2017/politics/we-the-women/
       desc:
-        - "The Webby Awards 2018 Honoree: News & Politics: Individual Episode."
+        - <strong>The Webby Awards 2018 Honoree- News & Politics Individual Episode.</strong>
         - A documentary capturing the historic Women's March on Washington, a demonstration that filled the streets of the nation's capital on January 21, 2017 and brought more than one million people out to protest across the country.
-        - Documentary by Contessa Gayles; art direction by Greg Chen.
-      role: Data visualization, UI and UX; HTML, CSS, and Js
+        - Documentary by Contessa Gayles; art direction and visual design by Greg Chen.
+      role: Data visualization, UX and UI design; HTML, CSS, and Js
   - project:
       name: Undocumented
       url: https://www.cnn.com/interactive/2019/07/business/undocumented/
       desc:
         - After the factory where Miguel Gonzalez worked was raided by immigration agents, he feared he’d be deported and moved his family back to Mexico. Now Miguel struggles to get by and his daughter Casandra, who was born in the U.S., must learn to live in a country that she had never before called home.
-        - Art direction by Jeffrey Hsu and Damian Prado.
-      role: UI and UX; HTML, CSS, and Js
+        - Art direction and visual design by Jeffrey Hsu and Damian Prado.
+      role: UX and UI design; HTML, CSS, and Js
   - project:
       name: Picture This
       url: https://money.cnn.com/katrina/index.html
       desc:
-        - "The Webby Awards 2016 Honoree: Best Use of Photography."
+        - <strong>The Webby Awards 2016 Honoree- Best Use of Photography.</strong>
         - "A photography-led experience featuring the last works of legendary photographer and photojournalist Mary Ellen Mark. CNN Money traveled with a legend to New Orleans to photograph key figures in the untold stories that will forever haunt NOLA: Hurricane Katrina. Our cameras are there as she captures these icons against the backdrop of a city that's still trying to heal, a decade later."
-        - Art direction by Greg Chen.
-      role: UI and UX; HTML, CSS, and Js
+        - Art direction and visual design by Greg Chen.
+      role: UX and UI design; HTML, CSS, and Js
   - project:
       name: The Secret Lives Of Superhero Hackers
       url: https://money.cnn.com/technology/superhero-hackers/
       desc:
         - A five-part digital series. Behind a computer, hackers become superheroes or villains, with the power to protect or destroy.
-        - Art direction by Greg Chen.
-      role: UI and UX; GreenSock, HTML, CSS, and Js
+        - Art direction and visual design by Greg Chen.
+      role: UX and UI design; GreenSock, HTML, CSS, and Js
