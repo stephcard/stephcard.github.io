@@ -27,14 +27,16 @@ a,
 .stephany__project_name {
   cursor: pointer;
   opacity: 1;
-  transition: opacity ease-in-out 300ms; }
+  transition: background-color ease-in-out 300ms;
+  background-color: transparent; }
   a:hover,
   .stephany__project_name:hover {
-    opacity: 0.5; }
+    background-color: #262626; }
   a:focus,
   .stephany__project_name:focus {
     outline: 1px solid #78a9ff;
-    outline-offset: -1px; }
+    outline-offset: -1px;
+    background-color: #262626; }
   a svg,
   .stephany__project_name svg {
     fill: #78a9ff; }

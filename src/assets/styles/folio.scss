@@ -35,15 +35,17 @@ a,
 .stephany__project_name {
     cursor: pointer;
     opacity: 1;
-    transition: opacity ease-in-out 300ms;
+    transition: background-color ease-in-out 300ms;
+    background-color: transparent;
 
     &:hover {
-        opacity: 0.5;
+        background-color: #262626;
     }
 
     &:focus {
         outline: 1px solid #78a9ff;
         outline-offset: -1px;
+        background-color: #262626;
     }
 
     svg {
