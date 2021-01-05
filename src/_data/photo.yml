@@ -29,14 +29,14 @@ work:
         file: untitled-iii
         title: Untitled III
         alt: alt
-        date: 2011
+        date: 2011 (Sold)
         size: 11x14
         medium: Photogram
       -
         file: untitled-iv
         title: Untitled IV
         alt: alt
-        date: 2011
+        date: 2011 (Sold)
         size: 11x14
         medium: Photogram
       -
@@ -53,6 +53,24 @@ work:
         date: 2011
         size: 11x14
         medium: Photogram
+  -
+    name: Bloom
+    desc:
+    assets:
+      -
+        file: bloom
+        title: Bloom
+        alt: alt
+        date: 2011 (Sold)
+        size: 16x20
+        medium: Lumen Print
+      -
+        file: faint
+        title: For the faint of heart
+        alt: alt
+        date: 2011 (Sold)
+        size: 16x20
+        medium: Lumen Print   
   -
     name: Common Apparitions
     desc:
@@ -75,30 +93,30 @@ work:
         file: seven
         title: "#7"
         alt: alt
-        date: 2011
+        date: 2011 (Sold)
         size: 14x11
         medium: Chemistry & Photogram
       -
         file: nine
         title: "#9"
         alt: alt
-        date: 2011
+        date: 2011 (Sold)
         size: 11x14
         medium: Chemistry & Photogram
       -
         file: twelve
         title: "#12"
         alt: alt
-        date: 2011
+        date: 2011 (Sold)
         size: 11x14
         medium: Chemistry & Photogram
       -
         file: thirty
         title: "#30"
         alt: alt
-        date: 2011
+        date: 2011 (Sold)
         size: 11x14
-        medium: Chemistry & Photogram
+        medium: Chemistry & Photogram 
   -
     name: Rituals of Love and Loss
     desc:
@@ -108,28 +126,28 @@ work:
         title: Untitled II
         alt: alt
         date: 2011
-        size:
+        size: 24mm x 36mm
         medium: 35mm film scanned
       -
         file: loss8
         title: Untitled VII
         alt: alt
         date: 2011
-        size:
+        size: 24mm x 36mm
         medium: 35mm film scanned
       -
         file: loss20
         title: Untitled XX
         alt: alt
         date: 2011
-        size:
+        size: 24mm x 36mm
         medium: 35mm film scanned
       -
         file: loss403
         title: Untitled CDIII
         alt: alt
         date: 2011
-        size:
+        size: 24mm x 36mm
         medium: 35mm film scanned
   -
     name: Aerial Landscapes
