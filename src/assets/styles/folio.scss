@@ -198,6 +198,9 @@ h3 {
         min-height: calc(85vh - 64px - 1rem);
         justify-content: flex-end;
     }
+    h2 {
+        max-width: 768px;
+    }
     p {
         max-width: 768px;
         padding-right: 1rem;
