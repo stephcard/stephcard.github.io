@@ -1,9 +1,10 @@
 <section class="stephany__content stephany__work">
     <div class="container">
-        <h3>Select Work.</h3>
+        <h3>Portfolio.</h3>
         {% for x in index.work %}
            <div class="stephany__project">
-                <h3 tabindex="0" data-project-name class="stephany__project_name">{{x.project.name}} <span><img src="assets/images/chevron--down.svg"></span></h3>
+           {{ x.project.name | slug }}
+                <h3 tabindex="0" data-project-name class="stephany__project_name">{{x.project.name}} <span><img src="/assets/images/chevron--down.svg"></span></h3>
                 <article class="stephany__project_desc" data-project-desc>
                 {% for y in x.project.desc %}
                     <p>{{y | safe}}</p>
@@ -12,31 +13,77 @@
 
                 <p><a class="stephany__project_url" tabindex="0" href="{{x.project.url}}" target="_blank" rel="noopener noreferrer"><span>See this work</span> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><style>.cls-1{fill:none;}</style></defs><title>rocket</title><rect x="6.34" y="19" width="11.31" height="2" transform="translate(-10.63 14.34) rotate(-45)"/><path d="M17,30a1,1,0,0,1-.37-.07,1,1,0,0,1-.62-.79l-1-7,2-.28.75,5.27L21,24.52V17a1,1,0,0,1,.29-.71l4.07-4.07A8.94,8.94,0,0,0,28,5.86V4H26.14a8.94,8.94,0,0,0-6.36,2.64l-4.07,4.07A1,1,0,0,1,15,11H7.48L4.87,14.26l5.27.75-.28,2-7-1a1,1,0,0,1-.79-.62,1,1,0,0,1,.15-1l4-5A1,1,0,0,1,7,9h7.59l3.77-3.78A10.92,10.92,0,0,1,26.14,2H28a2,2,0,0,1,2,2V5.86a10.92,10.92,0,0,1-3.22,7.78L23,17.41V25a1,1,0,0,1-.38.78l-5,4A1,1,0,0,1,17,30Z"/><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/></svg></a></p>
 
-                {% if (x.project.name | slug) == 'election-2000:-overtime'%}
+                {% if (x.project.name | slug) == 'getting-to-even'%}
                     <div class="stephany__project_stills stephany__project_election-2000">
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/election-2000/01.png">
+                            <img src="/assets/images/patty-has-a-gun/patty-1.png">
                         </figure>
                         
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/election-2000/02.png">
+                            <img src="/assets/images/patty-has-a-gun/patty-2.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/election-2000/03.png">
+                            <img src="/assets/images/patty-has-a-gun/patty-3.png">
                         </figure>
 
                         <figure class="stephany__project_stills__desktop">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/election-2000/04.png">
+                            <img src="/assets/images/patty-has-a-gun/patty-4.png">
+                        </figure>
+                    </div>
+                {% endif %}
+                {% if (x.project.name | slug) == 'patty-has-a-gun:-the-life-and-crimes-of-patricia-hearst'%}
+                    <div class="stephany__project_stills stephany__project_election-2000">
+                        <figure class="stephany__project_stills__mobile">
+                            <header><span></span><span></span><span></span></header>
+                            <img src="/assets/images/patty-has-a-gun/patty-1.png">
+                        </figure>
+                        
+                        <figure class="stephany__project_stills__mobile">
+                            <header><span></span><span></span><span></span></header>
+                            <img src="/assets/images/patty-has-a-gun/patty-2.png">
+                        </figure>
+
+                        <figure class="stephany__project_stills__mobile">
+                            <header><span></span><span></span><span></span></header>
+                            <img src="/assets/images/patty-has-a-gun/patty-3.png">
                         </figure>
 
                         <figure class="stephany__project_stills__desktop">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/election-2000/05.png">
+                            <img src="/assets/images/patty-has-a-gun/patty-4.png">
+                        </figure>
+                    </div>
+                {% endif %}
+                {% if (x.project.name | slug) == 'election-2000:-overtime'%}
+                    <div class="stephany__project_stills stephany__project_election-2000">
+                        <figure class="stephany__project_stills__mobile">
+                            <header><span></span><span></span><span></span></header>
+                            <img src="/assets/images/election-2000/01.png">
+                        </figure>
+                        
+                        <figure class="stephany__project_stills__mobile">
+                            <header><span></span><span></span><span></span></header>
+                            <img src="/assets/images/election-2000/02.png">
+                        </figure>
+
+                        <figure class="stephany__project_stills__mobile">
+                            <header><span></span><span></span><span></span></header>
+                            <img src="/assets/images/election-2000/03.png">
+                        </figure>
+
+                        <figure class="stephany__project_stills__desktop">
+                            <header><span></span><span></span><span></span></header>
+                            <img src="/assets/images/election-2000/04.png">
+                        </figure>
+
+                        <figure class="stephany__project_stills__desktop">
+                            <header><span></span><span></span><span></span></header>
+                            <img src="/assets/images/election-2000/05.png">
                         </figure>
                     </div>
                 {% endif %}
@@ -44,82 +91,82 @@
                     <div class="stephany__project_stills stephany__project_state">
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/state/01.png">
+                            <img src="/assets/images/state/01.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/state/02.png">
+                            <img src="/assets/images/state/02.png">
                         </figure>
                         
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/state/03.png">
+                            <img src="/assets/images/state/03.png">
                         </figure>
 
                         {# <figure class="stephany__project_stills__desktop">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/state/20.png">
+                            <img src="/assets/images/state/20.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/state/04.png">
+                            <img src="/assets/images/state/04.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/state/05.png">
+                            <img src="/assets/images/state/05.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/state/06.png">
+                            <img src="/assets/images/state/06.png">
                         </figure> #}
 
                         <figure class="stephany__project_stills__desktop">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/state/07.png">
+                            <img src="/assets/images/state/07.png">
                         </figure>
 
                         <figure class="stephany__project_stills__desktop">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/state/08.png">
+                            <img src="/assets/images/state/08.png">
                         </figure>
 
                         <figure class="stephany__project_stills__desktop">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/state/09.png">
+                            <img src="/assets/images/state/09.png">
                         </figure>
 
                         {# <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/state/10.png">
+                            <img src="/assets/images/state/10.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/state/11.png">
+                            <img src="/assets/images/state/11.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/state/12.png">
+                            <img src="/assets/images/state/12.png">
                         </figure> #}
  
                         <figure class="stephany__project_stills__desktop">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/state/13.png">
+                            <img src="/assets/images/state/13.png">
                         </figure>
 
                         <figure class="stephany__project_stills__desktop">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/state/15.png">
+                            <img src="/assets/images/state/15.png">
                         </figure>
 
                         {# <figure class="stephany__project_stills__desktop">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/state/16.png">
+                            <img src="/assets/images/state/16.png">
                         </figure> #}
 		            </div>
                 {% endif %}
@@ -127,27 +174,27 @@
                     <div class="stephany__project_stills stephany__project_election-2000">
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/undocumented/04.png">
+                            <img src="/assets/images/undocumented/04.png">
                         </figure>
                         
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/undocumented/05.png">
+                            <img src="/assets/images/undocumented/05.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/undocumented/06.png">
+                            <img src="/assets/images/undocumented/06.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/undocumented/07.png">
+                            <img src="/assets/images/undocumented/07.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/undocumented/08.png">
+                            <img src="/assets/images/undocumented/08.png">
                         </figure>
                     </div>
                 {% endif %}
@@ -155,37 +202,37 @@
                     <div class="stephany__project_stills stephany__project_women">
                         <figure class="stephany__project_stills__desktop">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/women-who-march/01.png">
+                            <img src="/assets/images/women-who-march/01.png">
                         </figure>
                         
                         <figure class="stephany__project_stills__desktop">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/women-who-march/02.png">
+                            <img src="/assets/images/women-who-march/02.png">
                         </figure>
 
                         <figure class="stephany__project_stills__desktop">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/women-who-march/03.png">
+                            <img src="/assets/images/women-who-march/03.png">
                         </figure>
 
                         <figure class="stephany__project_stills__desktop">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/women-who-march/04.png">
+                            <img src="/assets/images/women-who-march/04.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/women-who-march/06.png">
+                            <img src="/assets/images/women-who-march/06.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/women-who-march/05.png">
+                            <img src="/assets/images/women-who-march/05.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/women-who-march/08.png">
+                            <img src="/assets/images/women-who-march/08.png">
                         </figure>
                     </div>
                 {% endif %}
@@ -193,32 +240,32 @@
                     <div class="stephany__project_stills stephany__project_picture">
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span></header>
-                            <img src="assets/images/picture-this/08.png">
+                            <img src="/assets/images/picture-this/08.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span></header>
-                            <img src="assets/images/picture-this/09.png">
+                            <img src="/assets/images/picture-this/09.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span></header>
-                            <img src="assets/images/picture-this/10.png">
+                            <img src="/assets/images/picture-this/10.png">
                         </figure>
 
                         <figure class="stephany__project_stills__desktop">
                             <header><span></span><span></span></header>
-                            <img src="assets/images/picture-this/01.png">
+                            <img src="/assets/images/picture-this/01.png">
                         </figure>
 
                         <figure class="stephany__project_stills__desktop">
                             <header><span></span><span></span></header>
-                            <img src="assets/images/picture-this/02.png">
+                            <img src="/assets/images/picture-this/02.png">
                         </figure>
 
                         <figure class="stephany__project_stills__desktop">
                             <header><span></span><span></span></header>
-                            <img src="assets/images/picture-this/03.png">
+                            <img src="/assets/images/picture-this/03.png">
                         </figure>
                     </div>
                 {% endif %}
@@ -226,47 +273,47 @@
                     <div class="stephany__project_stills stephany__project_hackers">
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/superhero-hackers/01.png">
+                            <img src="/assets/images/superhero-hackers/01.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/superhero-hackers/02.png">
+                            <img src="/assets/images/superhero-hackers/02.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/superhero-hackers/03.png">
+                            <img src="/assets/images/superhero-hackers/03.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/superhero-hackers/04.png">
+                            <img src="/assets/images/superhero-hackers/04.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/superhero-hackers/05.png">
+                            <img src="/assets/images/superhero-hackers/05.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/superhero-hackers/06.png">
+                            <img src="/assets/images/superhero-hackers/06.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/superhero-hackers/09.png">
+                            <img src="/assets/images/superhero-hackers/09.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/superhero-hackers/07.png">
+                            <img src="/assets/images/superhero-hackers/07.png">
                         </figure>
 
                         <figure class="stephany__project_stills__mobile">
                             <header><span></span><span></span><span></span></header>
-                            <img src="assets/images/superhero-hackers/08.png">
+                            <img src="/assets/images/superhero-hackers/08.png">
                         </figure>
                     </div>
                 {% endif %}
