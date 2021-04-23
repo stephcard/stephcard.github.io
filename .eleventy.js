@@ -18,6 +18,7 @@ module.exports = (config) => {
   config.addPassthroughCopy('src/assets/images');
   config.addPassthroughCopy('src/assets/fonts');
   config.addPassthroughCopy('src/assets/getting-to-even');
+  config.addPassthroughCopy('src/*.pdf');
 
   // Minify eleventy pages in production
   if (process.env.NODE_ENV === 'production') {

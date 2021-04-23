@@ -31,13 +31,23 @@ education:
   - Psychology <span>Pace University</span>
 work:
   - project:
-      name: "Election 2000: Overtime"
-      url: https://www.cnn.com/interactive/2018/07/politics/election-2000-over-time/
+      name: "Daily Politics Quiz"
+      url: /daily-politics-quiz-cnn-cardet.pdf
       desc:
-        - <strong>The Webby Awards 2019 Nominee - Websites, Media Streaming.</strong>
-        - Witness the 2000 U.S. presidential election through the eyes of photographers Callie Shell and David Hume Kennerly in this digital photo and audio experience.
-        - An audio and photography bespoke experience.
-        - Art direction and visual design by Damian Prado; podcast by Amy Eason.
+        - Gamification of historical and modern politics for audiences with a bit of competitive streak.
+      role: Ux; Wireflows
+  - project:
+      name: "To The Moon"
+      url: /to-the-moon-cnn-cardet.pdf
+      desc:
+        - Get text messages recollecting historic moments of America’s mission to the moon.
+      role: Content development & research
+  - project:
+      name: "Neil Bot"
+      url: /neil-bot-cnn-cardet.pdf
+      desc:
+        - Your science and aeronautics questions answered by the first man to walk on the moon, Neil Armstrong.
+      role: Content development & research
   - project:
       name: "Election 2000: Overtime"
       url: https://www.cnn.com/interactive/2018/07/politics/election-2000-over-time/
