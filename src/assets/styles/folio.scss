@@ -25,13 +25,16 @@ a {
         outline: 1px solid #78a9ff;
         outline-offset: -1px;
     }
+
+    svg {
+        fill:  #78a9ff;
+    }
 }
 
 strong {
     font-weight: 500;
 }
 
-a,
 .stephany__project_name {
     cursor: pointer;
     opacity: 1;
