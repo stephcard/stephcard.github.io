@@ -31,6 +31,12 @@ education:
   - Psychology <span>Pace University</span>
 work:
   - project:
+      name: "Citizen by CNN Game Pack"
+      url: 
+      desc:
+        - Political trivia games to have been featured on kiosks at SXSW 2020 (event canceled due to COVID-19).
+      role: Content development & research; Ux; HTML, CSS, and Js
+  - project:
       name: "Daily Politics Quiz"
       url: /daily-politics-quiz-cnn-cardet.pdf
       desc:
