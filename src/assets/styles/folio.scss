@@ -97,7 +97,7 @@ p {
 //     }
 // }
 
-img {
+img, video {
     display: block;
     width: 100%;
     max-width: 100%;
@@ -283,6 +283,11 @@ h3 {
     padding-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+
+    h4 {
+        font-size: 1.125rem;
+        padding-bottom: 0.5rem;
+    }
 }
 
 .stephany__project_url {

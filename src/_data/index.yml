@@ -31,17 +31,47 @@ education:
   - Psychology <span>Pace University</span>
 work:
   - project:
-      name: "Citizen by CNN Game Pack"
+      name: "CITIZEN by CNN Game Pack"
+      background: 
+        - Ahead of the 2020 US presential election, CNN's civic engagement platform, CITIZEN by CNN, was scheduled to host an activation, <em>Citizen House @ SXSW</em>, from March 14-15.  
+        - Considering the high volume of foot traffic at SWSW, the need to keep audiences engaged while waiting to enter the activation emerged.
+        - My role was to produce political trivia games to be featured on iPad kiosks to help keep audiences engaged while they waited. This effort was lovingly referenced as <em>CITIZEN by CNN Game Pack</em>.
+        - Due to COVID-19, SXSW was canceled, but screen recordings of <em>CITIZEN by CNN Game Pack</em> live on in my portfolio. 
+      requirements:
+        - The <em>CITIZEN by CNN Game Pack</em> should include three to four highly engaging games.
+        - The games should be short and thoughtfully designed so audiences may be inclined to play multiple times
+        - The games should feature meaningful content so that audiences feel informed and educated.
+      process:
+        - After brainstorming game concepts, a user survey was conducted to identify which ideas resonated the most with audiences ages 21-54, SXSW's majority demographic.
+        - Next, paper wireflows would identify the required content for each game and begin to prescribe the user flows.
+        - Content for each game concept was collected and organized into a spreadsheet that could be exported as a JSON to populate the game interface.
+        - "Another round of paper wireflows would identify game features with a better understanding of the available content:"
+        - <em>Members only a new kind of house party.</em> Players identify if the congressperson is a member of the House or Senate. Within a time limit of sixty seconds, players answer as many congresspersons correctly as possible for the best score. The presented congresspersons are randomized - players will not get the same congresspersons if playing a second time or with a friend. The player's results are shareable via Twitter or Facebook.
+        - <em>Who said what? Politics edition.</em> Players identify which political figure said the presented quote. The game interface presents quotes with audio via a headset provided at the iPad kiosk. The presented quotes are randomized - players will not get the same quotes if playing a second time or with a friend. There are ten presented quotes per play. The player's results are shareable via Twitter or Facebook. 
+        - <em>Which candidates ran in 2020?</em> Players answer who were the presidential candidates in 2020. The game presents thirty-five candidates, but only thirty-two are correct. Tap on an incorrect candidate, and it's game over. The player's results are shareable via Twitter or Facebook. 
+        - <em>We want you! Try to pass the US citizenship exam.</em>  Players answer US citizenship exam questions. The game presents randomized questions - players will not get the same questions if playing a second time or with a friend. There are ten questions presented per play. The player's results are shareable via Twitter or Facebook.
+        - High-fidelity prototypes were produced based on the wireflows and used in guerilla usability testing to validate the user flows and expectations. 
       url: 
-      desc:
-        - Political trivia games to have been featured on kiosks at SXSW 2020 (event canceled due to COVID-19).
-      role: Content development & research; Ux; HTML, CSS, and Js
+      role: UX testing and design; Front-end web development
   - project:
-      name: "Daily Politics Quiz"
+      name: CNN Daily Politics Quiz
+      background: 
+        - To increase user registration across CNN.com, I was tasked to produce a politics trivia game that would live as a standalone app.
+      requirements:
+        - The game should be free to play but registration is required for certain parts of the game.
+        - Annotated wireflows were to be delivered in two weeks. 
+      process:
+        - A competitive research and analysis of similar experiences and products was conducted. This exercise included a lot of screengrabs with observation notes and a competitive matrix.
+        - Metrics on game-like experiences produced by CNN were pulled to understand how they performed with our audiences.
+        - User tasks and requirements are outlined.
+        - Paper wireframes are sketched to begin to flesh out the required screen for the experience.
+        - Guerilla usability testing was conducted on the paper wireframes to ensure the screens meet user expectations.
+        - Paper wireframes evolved into wireflows, which outline user flows with more context than a wireframe.
+        - Another round of guerilla usability testing validates if user tasks can be completed successfully. 
       url: /daily-politics-quiz-cnn-cardet.pdf
       desc:
         - Gamification of historical and modern politics for audiences with a bit of competitive streak.
-      role: Ux; Wireflows
+      role: UX research and design
   - project:
       name: "To The Moon"
       url: /to-the-moon-cnn-cardet.pdf
