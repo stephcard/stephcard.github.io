@@ -52,7 +52,7 @@ work:
         - <em>We want you! Try to pass the US citizenship exam.</em>  Players answer US citizenship exam questions. The game presents randomized questions - players will not get the same questions if playing a second time or with a friend. There are ten questions presented per play. The player's results are shareable via Twitter or Facebook.
         - High-fidelity prototypes were produced based on the wireflows and used in guerilla usability testing to validate the user flows and expectations. 
       url: 
-      role: UX testing and design; Front-end web development
+      role: UX testing and design, UI design, Front-end web development
   - project:
       name: CNN Daily Politics Quiz
       background: 
@@ -69,20 +69,20 @@ work:
         - Paper wireframes evolved into wireflows, which outline user flows with more context than a wireframe.
         - Another round of guerilla usability testing validates if user tasks can be completed successfully. 
       url: /daily-politics-quiz-cnn-cardet.pdf
-      desc:
-        - Gamification of historical and modern politics for audiences with a bit of competitive streak.
       role: UX research and design
   - project:
       name: "To The Moon"
       url: /to-the-moon-cnn-cardet.pdf
-      desc:
-        - Get text messages recollecting historic moments of America’s mission to the moon.
+      background:
+        - Ahead of the 50th anniversary of Apollo 11 Moon mission, I was tasked to ideate and scope the execution of an experience that would enagage and excite audiences, be an opportunity for sponsorship, and promote CNN's film 'APOLLO 11'.
+        - <em>To The Moon</em> is an SMS experience that shares historic moments of America's mission to the moon as they happened fifty years ago. Younger audiences get to experience epic milestones in US and space history while their parents and grandparents relive the nostalgia of this exciting time.
       role: Content development & research
   - project:
       name: "Neil Bot"
       url: /neil-bot-cnn-cardet.pdf
-      desc:
-        - Your science and aeronautics questions answered by the first man to walk on the moon, Neil Armstrong.
+      background:
+        - <em>Neil Bot</em> answers your science and aeronautics questions as the first man to walk on the moon, Neil Armstrong. This concept and scope exercise was aimed to reach audiences on Facebook and serve as an opportunity to promote CNN's film 'APOLLO 11.'
+        - <em>Neil Bot</em> leverages NASA's API and CNN's Facebook presence to create an interactive experience that is informative, fun, and highly shareable.
       role: Content development & research
   - project:
       name: "Election 2000: Overtime"
@@ -92,7 +92,7 @@ work:
         - Witness the 2000 U.S. presidential election through the eyes of photographers Callie Shell and David Hume Kennerly in this digital photo and audio experience.
         - An audio and photography bespoke experience.
         - Art direction and visual design by Damian Prado; podcast by Amy Eason.
-      role: Ux; HTML, CSS, and Js
+      role: UX design, UI design, Front-end web development
   - project:
       name: "Patty Has A Gun: The Life and Crimes of Patricia Hearst"
       url: https://www.cnn.com/interactive/2018/02/us/patty-hearst-podcast/
@@ -100,7 +100,7 @@ work:
         - With help from expert analysts, this CNN podcast re-examines the life and crimes of Patricia Hearst.
         - An audio and visual bespoke experience.
         - Art direction and visual design by Damian Prado.
-      role: Ux; HTML, CSS, and Js
+      role: UI design, Front-end web development
   - project:
       name: State Magazine
       url: https://www.cnn.com/interactive/2017/politics/state/
@@ -108,7 +108,7 @@ work:
         - <strong>The Webby Awards 2018 Honoree- Best Individual Editorial Experience.</strong>
         - State Magazine aims to capture this moment in America's political culture, which is exhilarating for those unnerved by what they see as the country's progressive, globalist tilt under Obama and anxiety-provoking for those who unexpectedly find that approach locked out of power in Washington.
         - Art direction and visual design by Damian Prado; branding by Jon Reyes.
-      role: Ux; HTML, CSS, and Js
+      role: UX design, UI design, Front-end web development
   - project:
       name: Women Who March
       url: https://www.cnn.com/interactive/2017/politics/we-the-women/
@@ -116,7 +116,7 @@ work:
         - <strong>The Webby Awards 2018 Honoree- News & Politics Individual Episode.</strong>
         - A documentary capturing the historic Women's March on Washington, a demonstration that filled the streets of the nation's capital on January 21, 2017 and brought more than one million people out to protest across the country.
         - Documentary by Contessa Gayles; art direction and visual design by Greg Chen.
-      role: Data visualization, Ux; HTML, CSS, and Js
+      role: Data visualization, UI design, Front-end web development
   # - project:
   #     name: Undocumented
   #     url: https://www.cnn.com/interactive/2019/07/business/undocumented/
@@ -130,7 +130,7 @@ work:
       desc:
         - Prototype for a proposed podcast. 
         - Art direction and visual design by Damian Prado.
-      role: Ux; HTML, CSS, and Js
+      role: UI design, Front-end web development
   - project:
       name: Picture This
       url: https://money.cnn.com/katrina/index.html
@@ -138,11 +138,11 @@ work:
         - <strong>The Webby Awards 2016 Honoree- Best Use of Photography.</strong>
         - "A photography-led experience featuring the last works of legendary photographer and photojournalist Mary Ellen Mark. CNN Money traveled with a legend to New Orleans to photograph key figures in the untold stories that will forever haunt NOLA: Hurricane Katrina. Our cameras are there as she captures these icons against the backdrop of a city that's still trying to heal, a decade later."
         - Art direction and visual design by Greg Chen.
-      role: Ux; HTML, CSS, and Js
+      role: UI design, Front-end web development
   - project:
       name: The Secret Lives Of Superhero Hackers
       url: https://money.cnn.com/technology/superhero-hackers/
       desc:
         - A five-part digital series. Behind a computer, hackers become superheroes or villains, with the power to protect or destroy.
         - Art direction and visual design by Greg Chen.
-      role: Ux; GreenSock, HTML, CSS, and Js
+      role: UI design, Front-end web development
