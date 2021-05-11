@@ -18,7 +18,7 @@ body {
 }
 
 a {
-    color: #635EE6;
+    color: $purple;
     transition: color ease-in 300ms;
     text-decoration: none;
 
@@ -27,12 +27,12 @@ a {
         &:after {
             position: absolute;
             content:'';
-            border-bottom: 1px solid #635EE6;
+            background: $purple;
             width: 0;
-            height: 1px;
+            height: 2px;
             transition: width 300ms ease-in;
             left: 0;
-            bottom: 0;
+            bottom: -1px;
             display: block;
         }
     }
@@ -104,6 +104,16 @@ img, video, svg {
     max-width: 100%;
 }
 
+video {
+    &:focus {
+        outline: 2px solid $purple;
+    }
+
+    &:focus-within {
+        outline: 2px solid $purple;
+    }
+}
+
 .container {
     padding: 1rem;
     margin: 0 auto;
@@ -122,6 +132,16 @@ img, video, svg {
            text-decoration: none;
 
            &:hover {
+            h1, h2 {
+                color: #635EE6;
+            }
+
+            svg {
+                fill: #635EE6;
+            }
+           }
+
+           &:focus {
             h1, h2 {
                 color: #635EE6;
             }
@@ -270,7 +290,7 @@ img, video, svg {
 
     &:focus {
         background: #f4f4f4;
-        outline: 1px solid $purple;
+        outline: 2px solid $purple;
     }
 
 
