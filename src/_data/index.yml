@@ -2,9 +2,9 @@ name: Stephany Cardet
 title: UX & Product Designer
 email: stephany.cardet@gmail.com
 linkedin: https://www.linkedin.com/in/stephany-c-86761526/
-description: Product, Ux design, and front-end code. Human-first, always.
+description: Product, UX design, and front-end code. Human-first, always.
 url: https://stephanycardet.com
-keywords: product design, human-first design, ux, Ux designer, Ux engineer, product designer
+keywords: product design, human-first design, UX, UX designer, UX engineer, product designer
 speaking:
   - Lower Eastside Girls Club<br><span>2018</span>
   - StoryCode<br><span>2017</span>
@@ -46,7 +46,7 @@ work:
         - <em>We want you! Try to pass the US citizenship exam.</em>  Players answer US citizenship exam questions. The game presents randomized questions - players will not get the same questions if playing a second time or with a friend. There are ten questions presented per play.
         - High-fidelity prototypes were produced based on the wireflows and used in guerilla usability testing to validate the user flows and expectations. 
       url: 
-      role: Ux testing and design, Ui design, Front-end web development
+      role: UX testing and design, UI design, Front-end web development
   - project:
       name: CNN Daily Politics Quiz
       background: 
@@ -63,7 +63,7 @@ work:
         - Paper wireframes evolved into wireflows, which outline user flows with more context than a wireframe.
         - Another round of guerilla usability testing validates if user tasks can be completed successfully. 
       url: /daily-politics-quiz-cnn-cardet.pdf
-      role: Ux research and design
+      role: UX research and design
   - project:
       name: "To The Moon"
       url: /assets/pdfs/to-the-moon-cnn-cardet.pdf
@@ -86,7 +86,7 @@ work:
         - Witness the 2000 U.S. presidential election through the eyes of photographers Callie Shell and David Hume Kennerly in this digital photo and audio experience.
         - An audio and photography bespoke experience.
         - Art direction and visual design by Damian Prado; podcast by Amy Eason.
-      role: Ux design, Ui design, Front-end web development
+      role: UX design, UI design, Front-end web development
   # - project:
   #     name: "Patty Has A Gun: The Life and Crimes of Patricia Hearst"
   #     url: https://www.cnn.com/interactive/2018/02/us/patty-hearst-podcast/
@@ -94,7 +94,7 @@ work:
   #       - With help from expert analysts, this CNN podcast re-examines the life and crimes of Patricia Hearst.
   #       - An audio and visual bespoke experience.
   #       - Art direction and visual design by Damian Prado.
-  #     role: Ui design, Front-end web development
+  #     role: UI design, Front-end web development
   - project:
       name: State Magazine
       url: https://www.cnn.com/interactive/2017/politics/state/
@@ -102,7 +102,7 @@ work:
         - <em>The Webby Awards 2018 Honoree- Best Individual Editorial Experience.</em>
         - State Magazine aims to capture this moment in America's political culture, which is exhilarating for those unnerved by what they see as the country's progressive, globalist tilt under Obama and anxiety-provoking for those who unexpectedly find that approach locked out of power in Washington.
         - Art direction and visual design by Damian Prado; branding by Jon Reyes.
-      role: Ux design, Ui design, Front-end web development
+      role: UX design, UI design, Front-end web development
   - project:
       name: Women Who March
       url: https://www.cnn.com/interactive/2017/politics/we-the-women/
@@ -110,7 +110,7 @@ work:
         - <em>The Webby Awards 2018 Honoree- News & Politics Individual Episode.</em>
         - A documentary capturing the historic Women's March on Washington, a demonstration that filled the streets of the nation's capital on January 21, 2017 and brought more than one million people out to protest across the country.
         - Documentary by Contessa Gayles; art direction and visual design by Greg Chen.
-      role: Data visualization, Ui design, Front-end web development
+      role: Data visualization, UI design, Front-end web development
   - project:
       name: Like, Share, Elect @ Newseum
       url: https://www.cnn.com/2016/04/18/politics/newseum-like-share-elect/index.html
@@ -119,21 +119,21 @@ work:
         - I was honored to participate and "open" for Zignal Labs' interactive social data installation.
         - My work included a live interactive Instagram feed, photography-led interactive, and Zack Wolfe's welcome video. The two interactives and video were presented on large screens in the front column of the exhibit.
         - I failed to properly document my work in my excitement and exhaustion. Still, you can check out the link below to learn more about the exhibit. 
-      role: Ux design, Ui design, Front-end web development
+      role: UX design, UI design, Front-end web development
   # - project:
   #     name: Undocumented
   #     url: https://www.cnn.com/interactive/2019/07/business/undocumented/
   #     background:
   #       - After the factory where Miguel Gonzalez worked was raided by immigration agents, he feared he’d be deported and moved his family back to Mexico. Now Miguel struggles to get by and his daughter Casandra, who was born in the U.S., must learn to live in a country that she had never before called home.
   #       - Art direction and visual design by Jeffrey Hsu and Damian Prado.
-  #     role: Ux; HTML, CSS, and Js
+  #     role: UX; HTML, CSS, and Js
   # - project:
   #     name: "Getting To Even"
   #     url: /getting-to-even/
   #     background:
   #       - Prototype for a proposed podcast. 
   #       - Art direction and visual design by Damian Prado.
-  #     role: Ui design, Front-end web development
+  #     role: UI design, Front-end web development
   - project:
       name: Picture This
       url: https://money.cnn.com/katrina/index.html
@@ -141,11 +141,11 @@ work:
         - <em>The Webby Awards 2016 Honoree- Best Use of Photography.</em>
         - "A photography-led experience featuring the last works of legendary photographer and photojournalist Mary Ellen Mark. CNN Money traveled with a legend to New Orleans to photograph key figures in the untold stories that will forever haunt NOLA: Hurricane Katrina. Our cameras are there as she captures these icons against the backdrop of a city that's still trying to heal, a decade later."
         - Art direction and visual design by Greg Chen.
-      role: Ui design, Front-end web development
+      role: UI design, Front-end web development
   - project:
       name: The Secret Lives Of Superhero Hackers
       url: https://money.cnn.com/technology/superhero-hackers/
       background:
         - A five-part digital series. Behind a computer, hackers become superheroes or villains, with the power to protect or destroy.
         - Art direction and visual design by Greg Chen.
-      role: Ui design, Front-end web development
+      role: UI design, Front-end web development
