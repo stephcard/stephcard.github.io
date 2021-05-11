@@ -34,9 +34,9 @@ date: Last Modified
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="675">
     
-    <!-- preconnect + preload -->
-    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
 
     {% include "webpack.njk" %}
   </head>
@@ -44,29 +44,10 @@ date: Last Modified
   <body>
     {% include "index/header.njk" %}
     {% include "index/hero.njk" %}
-    {# {% include "index/speaking.njk" %} #}
-    {% include "index/awards.njk" %}
+    {% include "index/work.njk" %}
+    {% include "index/nice.njk" %}
     {% include "index/education.njk" %}
-    {# {% include "index/work.njk" %} #}
+    {% include "index/awards.njk" %}
     {% include "index/footer.njk" %}
-
-    <noscript id="deferred-styles">
-      <link rel="stylesheet" href="assets/fonts/plex.css"/>
-    </noscript>
-
-    <script>
-      // Load Plex
-      var loadDeferredStyles = function() {
-      var addStylesNode = document.getElementById('deferred-styles');
-      var replacement = document.createElement('div');
-      replacement.innerHTML = addStylesNode.textContent;
-      document.body.appendChild(replacement)
-      addStylesNode.parentElement.removeChild(addStylesNode);
-      };
-      var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
-      window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
-      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-      else window.addEventListener('load', loadDeferredStyles);
-    </script>
   </body>
 </html>
