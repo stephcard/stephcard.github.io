@@ -66,14 +66,14 @@ work:
       role: Ux research and design
   - project:
       name: "To The Moon"
-      url: /to-the-moon-cnn-cardet.pdf
+      url: /assets/pdfs/to-the-moon-cnn-cardet.pdf
       background:
         - Ahead of the 50th anniversary of Apollo 11 Moon mission, I was tasked to ideate and scope the execution of an experience that would enagage and excite audiences, be an opportunity for sponsorship, and promote CNN's film 'APOLLO 11'.
         - <em>To The Moon</em> is an SMS experience that shares historic moments of America's mission to the moon as they happened fifty years ago. Younger audiences get to experience epic milestones in US and space history while their parents and grandparents relive the nostalgia of this exciting time.
       role: Content development & research
   - project:
       name: "Neil Bot"
-      url: /neil-bot-cnn-cardet.pdf
+      url: /assets/pdfs/neil-bot-cnn-cardet.pdf
       background:
         - <em>Neil Bot</em> answers your science and aeronautics questions as the first man to walk on the moon, Neil Armstrong. This concept and scope exercise was aimed to reach audiences on Facebook and promote CNN's film 'APOLLO 11.'
         - <em>Neil Bot</em> leverages NASA's API and CNN's Facebook presence to create an interactive experience that is informative, fun, and highly shareable.
