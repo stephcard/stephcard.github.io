@@ -1,0 +1,52 @@
+title: Demo Automation
+hero: demo-automation-hero-1.png
+problem:
+  text:
+    - Manual product demonstrations create significant inefficiencies for technical sales teams, consuming valuable time with repetitive setups and configurations for each prospect. Without automated demo environments, sales engineers must rebuild complex infrastructure repeatedly, risking technical issues during live presentations and limiting the ability to quickly customize demonstrations for specific customer needs. This leads to longer sales cycles, reduced demo quality, and missed opportunities to showcase product capabilities effectively. The lack of automation also prevents scaling demo delivery across multiple prospects simultaneously, creating a bottleneck in the sales pipeline.
+  points:
+    - Manual demo setups drain sales engineer time and limit prospect engagement
+    - Live demo technical issues and limited customization reduce sales effectiveness
+    - Lack of automation creates pipeline bottlenecks and slows revenue growth
+discovery:
+  img: process-discovery.png
+  text:
+    - Through discovery with technical sales engineers across multiple organizations, patterns emerged around the time-intensive nature of demo environment setup and maintenance. Competitive research revealed existing solutions focused primarily on capture automation, missing critical needs for demo customization and reusability. User interviews uncovered pain points beyond demo creation - the need to reuse and modify demos across different customer scenarios, bulk edit demos, and track demo performance through analytics.
+  points:
+    - Sales engineers are forced them to rebuild similar environments repeatedly and face frustration around broken demo environments
+    - Existing demo tools focus narrowly on capture automation while missing critical needs for customization and bulk editing capabilities
+    - Lack visibility into demo performance and engagement metrics, making it difficult to optimize technical sales approaches
+strategy:
+  img: IMG_3068.jpg
+  text:
+    - In a two-day workshop, product and engineering teams aligned their understanding of user needs and the competitive landscape. The team synthesized user research into defined personas, identifying core pain points and opportunities. Paper prototypes explored different approaches to the user experience. Through these exercises, the team established MVP capabilities around demo capture, sharing, and demo editing.
+  points:
+    - "Immediate Value: Users should be able to create their first demo environment within 5 minutes of onboarding"
+    - "Reuse Over Rebuild: Enable quick demo creation through a shared library"
+    - "Safe to Experiment: Users should feel confident exploring and modifying demos without fear of breaking demonstrations"
+    - "Measure What Matters: Analytics that help sales engineers improve demo effectiveness"
+solution:
+  text:
+    - Streamline demo creation by enabling teams to create customized product replicas in minutes, not hours. Through a shared library, sales engineers can rapidly assemble demos while maintaining consistency. The product provides a safe environment for customization, allowing teams to modify demos without risk. Built-in analytics focus on key metrics that matter most to sales engineers, helping teams understand and improve their demo performance over time.
+  points:
+    - Build an MVP focused on demo capture and sharing, with emphasis on editing capabilities that allow sales teams to easily customize and reuse demos
+    - Prioritize UI/UX that streamlines bulk modifications, enabling sales engineers to quickly adapt demos for different customer scenarios
+    - Incorporate analytics and tracking features to help teams measure demo effectiveness and optimize technical sales approaches
+design:
+  text:
+    -  Initial product concepts explored at the team offsite were tested with our sales engineers to validate early assumptions. Through usability and A/B testing, we established core workflows and product language. Regular collaboration with product and engineering teams helped balance user needs with technical feasibility. The iterative design process included low-fidelity and high-fidelity user flows for design reviews, with testing results informing UX and product decisions to ensure the MVP met user requirements.
+  img: process-strategy-1.png
+  points:
+    - "Cemented the MVP product concept and technical foundation: A high-fidelity demo environment that creates precise HTML/CSS/JS replicas of the customer's product."
+    - Defined the complete user journey from account creation through demo capture, customization, and sharing for MVP
+    - Specified key MVP capabilities for demo customization, including theming, media supplementation, and library organization
+delivery:
+  text: 
+    - Design documentation included detailed user stories and acceptance criteria covering functionality, error states, and edge cases. UX cheat sheets guided the QA team on expected behaviors across core user flows, while close engineering collaboration ensured design integrity throughout implementation.
+  img: process-design-delivery-6.png
+validation:
+  text:
+    - Customer feedback and user surveys spoke to how effective the product met user needs and filled a gap in the technical sales market. Through follow-up interviews with customers, we gained valuable insights into feature adoption and pain points. This direct feedback shaped our product roadmap, helping prioritize key improvements around demo customization and analytics capabilities.
+  points:
+    - Reported 50% time savings through demo capture and customization compared to traditional product demonstrations
+    - Media Steps, a key feature in demo customization, enabled users who couldn't install our extension due to security restrictions to create product replicas, unlocking additional revenue and pipeline opportunities
+    - Need for more advanced share settings including password protected demos and demos for whitelisted users based on organization name

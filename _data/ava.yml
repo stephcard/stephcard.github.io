@@ -1,0 +1,62 @@
+title: Ava, Your AI Sales Engineer
+hero: ava-hero-1.png
+skills:
+    - Research
+    - Team Alignment
+    - Leadership
+    - UX Strategy
+    - Design System
+    - UX Design
+    - User Testing
+    - UI Design
+    - Conversation Design
+    - Interaction Design
+    - Acceptance Criteria
+    - B2B
+    - Agentic AI
+    - Figma
+    - Linear
+    - FullStory
+problem:
+  text:
+    - In the B2B sales landscape, sales engineers face mounting pressure to deliver deep product expertise while being bogged down by time-consuming tasks such as logging deal activities, capturing product gaps, and performing discovery – time that could be better spent building strategic customer relationships and closing deals.
+    - Our company was eager to explore how artificial intelligence could not only automate the challenges that sales engineers face but also dramatically scale their efforts, enabling them to support more customers and opportunities without compromising on quality.
+  points:
+    - Time-consuming prework and insights gathering detracts from their core focus of building strategic customer solutions
+    - Sales engineers' deal capacity is constrained, limiting their ability to scale impact across a growing pipeline
+    - No existing AI solutions are specialized for technical sales engineering, creating an opportunity to be first-to-market with a domain-specific solution
+discovery:
+  img: process-strategy-2.png
+  text:
+    - Driven by the opportunity to be the first AI Sales Engineer solution in the marketplace, we pursued parallel tracks of discovery and strategy. Through iterative design with leadership, interviews with our technical sales team, and testing of leading AI platforms, I helped ensure we were building something ambitious and grounded in real user needs.
+  points:
+    - Preference for familiar button-based interfaces over conversational AI
+    - While eager for automation, users remain skeptical of AI solutions, expressing concerns about data accuracy and oversimplified technical solutions
+    - Sales engineers often skip administrative tasks—resulting in lost deal data and missed opportunities to leverage customer insights
+solution:
+  text:
+  - Ava is an AI sales engineer that operates as a true team member, participating simultaneously in all customer calls, team discussions, and emails. She combines technical expertise with continuous learning to deliver consistent, scalable pre-sales solutions. Through her specialized knowledge graph, she knows what she doesn't know.
+  - Ava anticipates needs, drafts technical solutions, and handles objection and conflicting information - all while integrating seamlessly with your tools. She learns from every interaction and synthesizes insights across all customer touchpoints to drive successful technical sales.
+  points:
+    - Leverage decades of technical sales engineering expertise to create an intelligent foundation that understands complex B2B sales workflows and technical requirements
+    - Continuously learn and adapt from real-world sales engineering interactions to enhance accuracy and relevance
+    - Enable automated data capture and seamless knowledge sharing through integration with business tools (Slack, Gong, Chorus, calendaring systems)
+    - Create UX affordances and efficiencies to build trust and increase confidence and comfort with AI
+design:
+  text:
+    - Working closely with leadership, rapid design iterations helped visualize and refine the product vision. A critical challenge was visualizing how users would both interact with and contribute to our specialized sales engineering knowledge graph, which formed our core competitive advantage. Through early alignment on user mental models, we ensured the knowledge graph would reflect how sales engineers actually work rather than how we assumed they work.
+  img: ava-hero-2.png
+  samples:
+    - text: How Ava Learns
+      href: how-ava-learns-1.png
+      fancybox: ava-how-ava-learns
+delivery:
+  img: process-design-delivery-1.png
+  text:
+    - Design handoffs include comprehensive documentation with user stories and acceptance criteria covering functionality, error states, and edge cases. Close collaboration with engineering continues throughout implementation, including progress reviews and alternative solutions for technical constraints.
+validation:
+  text:
+    - While Ava is in the early adopter phase, the product is already demonstrating significant value. Through FullStory replays and user interviews, I identify friction points, understand pain points, and strategize feature development to reach the product's full potential.
+  points:
+    - Data showed sales engineers gained back 20% of their time through automated discovery and insights in their first month of usage
+    - Actively addressing user concerns around AI trust and reliability through transparent knowledge acquisition and validation

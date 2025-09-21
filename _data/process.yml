@@ -1,0 +1,58 @@
+- title: Research
+  href: research
+  img: process-discovery.png
+  text:
+    - Problem solving begins with a 360-degree view - capturing business objectives, uncovering user pain points, mental models and workarounds, and identifying opportunities for differentiation. This foundation ensures solutions that drive both user satisfaction and business growth.
+  skills:
+    - Upfront Discovery
+    - Continuous Discovery
+    - User Interviews
+    - Stakeholder Interviews
+    - Competitive Analysis
+    - User Empathy
+    - Problem Definition
+- title: Strategy
+  href: strategy
+  img: process-strategy-1.png
+  text:
+    - Working closely with stakeholders and product and enginerring teams, findings and insights transform into user personas and guiding principles that align with business goals. Solutions emerge through rapid iteration and continuous user testing.
+  skills:
+    - Concept Testing
+    - A/B Testing
+    - User Personas
+    - Use Cases
+    - User Surveys
+    - Clustering
+    - Dot Voting
+- title: Design
+  href: design
+  img: process-design-2.png
+  text:
+    - Leveraging cognitive psychology principles and UX patterns, design solutions evolve through early feedback and testing - moving from low-fidelity explorations to comprehensive designs while ensuring technical feasibility with engineering teams.
+  skills:
+    - Rapid Design Iterations
+    - Usability Testing
+    - User Interviews
+    - Cognitive Psychology
+    - User Flows
+    - User Surveys
+    - Continuous Discovery
+- title: Design Delivery
+  href: design-delivery
+  img: process-design-delivery-1.png
+  text:
+    - Partnering closely with engineering teams, delivery includes comprehensive design documentation that aligns with the product roadmap while balancing technical constraints with core user experience needs.
+  skills:
+    - Acceptance Criteria
+    - User Flows
+    - User Stories
+- title: Measuring Impact
+  href: validation
+  img: process-validation-1.png
+  text:
+    - Post-deployment, impact is measured through usage data analysis and user interviews, emphasizing deep listening to uncover solution effectiveness and identify emerging needs that drive future improvements.
+  skills:
+    - User Interviews
+    - User Surveys
+    - Data Analysis
+    - Continuous Discovery

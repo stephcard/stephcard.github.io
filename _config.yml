@@ -1,0 +1,35 @@
+# Setup
+name: Stephany Cardet
+title: Product and user experience design
+email: stephany.cardet@gmail.com
+linkedin: https://www.linkedin.com/in/stephany-c-86761526/
+description: Product and user experience design. Human-centered, always.
+url: https://stephanycardet.com
+keywords: product design, product designer, human-first design, user centered design, user experience, user experience designer, UX, UX designer, UX researcher, UX engineer, user experience research, B2B design, B2C design
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
