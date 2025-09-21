@@ -1,4 +1,4 @@
-- title: Research
+- title: Discovery
   href: research
   img: process-discovery.png
   text:
@@ -15,7 +15,7 @@
   href: strategy
   img: process-strategy-1.png
   text:
-    - Working closely with stakeholders and product and enginerring teams, findings and insights transform into user personas and guiding principles that align with business goals. Solutions emerge through rapid iteration and continuous user testing.
+    - Working closely with stakeholders and product and engineering teams, findings and insights transform into user personas and guiding principles that align with business goals. Proposed solutions emerge through rapid iteration and continuous user testing.
   skills:
     - Concept Testing
     - A/B Testing
@@ -37,7 +37,7 @@
     - User Flows
     - User Surveys
     - Continuous Discovery
-- title: Design Delivery
+- title: Delivery
   href: design-delivery
   img: process-design-delivery-1.png
   text:
@@ -46,7 +46,7 @@
     - Acceptance Criteria
     - User Flows
     - User Stories
-- title: Measuring Impact
+- title: Impact
   href: validation
   img: process-validation-1.png
   text:

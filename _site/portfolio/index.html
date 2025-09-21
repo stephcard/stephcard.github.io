@@ -214,15 +214,15 @@
     <div class="container container--tabs">
     	<nav class="tabs-nav padding-bottom-32">
     		
-    		<button class="button--tab active" data-tab="research">Research</button>
+    		<button class="button--tab active" data-tab="research">Discovery</button>
     		
     		<button class="button--tab" data-tab="strategy">Strategy</button>
     		
     		<button class="button--tab" data-tab="design">Design</button>
     		
-    		<button class="button--tab" data-tab="design-delivery">Design Delivery</button>
+    		<button class="button--tab" data-tab="design-delivery">Delivery</button>
     		
-    		<button class="button--tab" data-tab="validation">Measuring Impact</button>
+    		<button class="button--tab" data-tab="validation">Impact</button>
     		
     	</nav>
 
@@ -231,7 +231,7 @@
 			<div class="container container--two-column">
 	  			<div class="left">
 	  				<figure class="border-tertiary">
-						<a href="/assets/images/process-discovery.png" data-fancybox="process--Research">
+						<a href="/assets/images/process-discovery.png" data-fancybox="process--Discovery">
 							<img src="/assets/images/process-discovery.png" alt="" />
 						</a>
 					</figure>
@@ -273,7 +273,7 @@
 	  			</div>
 	  			<div class="right">
 	  				
-	  				<p class="padding-bottom-16">Working closely with stakeholders and product and enginerring teams, findings and insights transform into user personas and guiding principles that align with business goals. Solutions emerge through rapid iteration and continuous user testing.</p>
+	  				<p class="padding-bottom-16">Working closely with stakeholders and product and engineering teams, findings and insights transform into user personas and guiding principles that align with business goals. Proposed solutions emerge through rapid iteration and continuous user testing.</p>
 	  				
 
 	  				<div class="container--pills">
@@ -336,7 +336,7 @@
 			<div class="container container--two-column">
 	  			<div class="left">
 	  				<figure class="border-tertiary">
-						<a href="/assets/images/process-design-delivery-1.png" data-fancybox="process--Design Delivery">
+						<a href="/assets/images/process-design-delivery-1.png" data-fancybox="process--Delivery">
 							<img src="/assets/images/process-design-delivery-1.png" alt="" />
 						</a>
 					</figure>
@@ -363,7 +363,7 @@
 			<div class="container container--two-column">
 	  			<div class="left">
 	  				<figure class="border-tertiary">
-						<a href="/assets/images/process-validation-1.png" data-fancybox="process--Measuring Impact">
+						<a href="/assets/images/process-validation-1.png" data-fancybox="process--Impact">
 							<img src="/assets/images/process-validation-1.png" alt="" />
 						</a>
 					</figure>
@@ -524,6 +524,28 @@
 	
 	</div>
 </section>
+
+<script type="text/javascript">
+	  let password = "coconut";
+        
+    (function passcodeprotect() {
+        // Hide loading screen and show prompt
+        //document.getElementById("loadingScreen").style.display = "none";
+        
+        let passcode = prompt("Enter passcode");
+        
+        // Handle if user clicks Cancel
+        if (passcode === null) {
+            alert("Access denied. Please enter the password to continue.");
+            return passcodeprotect();
+        }
+        
+        if (passcode !== password) {
+            alert("Incorrect password");
+            return passcodeprotect();
+        }
+    }());
+</script>
 
         <footer class="footer--primary padding-bottom-16 padding-top-16">
             <div class="container">

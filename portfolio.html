@@ -137,3 +137,25 @@ introText: I'm a human-centered designer working at the intersection of AI and u
 	{% endfor %}
 	</div>
 </section>
+
+<script type="text/javascript">
+	  let password = "coconut";
+        
+    (function passcodeprotect() {
+        // Hide loading screen and show prompt
+        //document.getElementById("loadingScreen").style.display = "none";
+        
+        let passcode = prompt("Enter passcode");
+        
+        // Handle if user clicks Cancel
+        if (passcode === null) {
+            alert("Access denied. Please enter the password to continue.");
+            return passcodeprotect();
+        }
+        
+        if (passcode !== password) {
+            alert("Incorrect password");
+            return passcodeprotect();
+        }
+    }());
+</script>
